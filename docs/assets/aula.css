@@ -23,6 +23,8 @@ header.cabeza .lema { color: var(--amarillo); font-size: 15px; }
 h1 { font-size: 34px; line-height: 1.2; margin: 8px 0 4px; }
 h2 { font-size: 24px; margin-top: 40px; border-bottom: 2px solid var(--borde); padding-bottom: 4px; }
 .botones { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 8px; }
+.enlaces { display: flex; gap: 16px; align-items: center; margin: 14px 0 4px; padding: 10px 14px; border: 1px solid var(--borde);
+           border-radius: 8px; font-size: 14px; } .enlaces svg { flex: none; } .enlaces a { color: var(--tinta); }
 .boton { display: inline-block; padding: 10px 16px; border-radius: 8px; background: var(--pizarra); color: var(--tiza);
          text-decoration: none; font-weight: bold; border: 2px solid var(--pizarra); }
 .boton.claro { background: transparent; color: var(--tinta); border-color: var(--borde); }
