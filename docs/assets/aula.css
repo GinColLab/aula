@@ -35,6 +35,9 @@ table { border-collapse: collapse; width: 100%; font-size: 16px; display: block;
 th, td { border: 1px solid var(--borde); padding: 8px 10px; vertical-align: top; text-align: left; }
 th { background: rgba(26, 42, 68, 0.06); }
 a { color: var(--acento); }
+/* Un enlace larguísimo sin espacios (un fichero de Wikimedia Commons) ensanchaba la página y Chrome encogía toda la
+   ficha al imprimirla: en Filosofía 1 la letra salió más pequeña que en las demás. Se parte donde haga falta. */
+main { overflow-wrap: break-word; } li a, p a { word-break: break-all; }
 .pie { color: var(--suave); font-size: 14px; margin-top: 48px; border-top: 1px solid var(--borde); padding-top: 12px; }
 .nombre { font-size: 17px; margin: 18px 0 8px; }
 .hoja li { break-inside: avoid; padding-bottom: 64px; margin-bottom: 0; } .hoja table td { height: 34px; }
