@@ -2,7 +2,9 @@
 
 Fichas docentes de las clases del canal de YouTube [GinCol Lab](https://www.youtube.com/@GinColLab), para el profesorado:
 objetivo, currículo oficial (Real Decreto 243/2022), cómo está construida cada clase, errores típicos, soluciones y una
-actividad para el aula. Cada ficha está en web y en PDF para imprimir: **https://gincollab.github.io/aula/**
+actividad para el aula, con un plan para una sesión de 50 minutos y una hoja para el alumnado sin soluciones. Cada
+ficha está en web y en PDF para imprimir, en español y en inglés: **https://gincollab.github.io/aula/**
+(English: **https://gincollab.github.io/aula/en/**)
 
 ## Método
 

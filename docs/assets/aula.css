@@ -36,6 +36,9 @@ th, td { border: 1px solid var(--borde); padding: 8px 10px; vertical-align: top;
 th { background: rgba(26, 42, 68, 0.06); }
 a { color: var(--acento); }
 .pie { color: var(--suave); font-size: 14px; margin-top: 48px; border-top: 1px solid var(--borde); padding-top: 12px; }
+.nombre { font-size: 17px; margin: 18px 0 8px; }
+.hoja li { margin-bottom: 64px; } .hoja table td { height: 34px; } .hoja .pie { display: none; }
+.idioma { float: right; font-size: 15px; }
 @media print {
   :root { --fondo: #ffffff; --tinta: #1a2a44; --suave: #4b5563; --acento: #1a2a44; --borde: #cfcac0; }
   body { font-size: 11pt; } main { max-width: none; padding: 0; }
