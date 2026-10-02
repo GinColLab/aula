@@ -9,11 +9,18 @@ objective, the official Spanish curriculum (Royal Decree 243/2022), quoted word 
 mistakes, questions with their solutions, a plan for a 50-minute lesson and a classroom activity.">
 <link rel="icon" href="../assets/buho.png">
 <link rel="stylesheet" href="../assets/aula.css">
-<style>li { margin: 12px 0; }</style>
+<style>
+.materias { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin: 16px 0; }
+.materia { display: block; padding: 16px; border: 1px solid var(--borde); border-radius: 10px; text-decoration: none;
+           color: var(--tinta); } .materia:hover { border-color: var(--acento); }
+.materia b { display: block; color: var(--acento); font-size: 19px; } .materia small { color: var(--suave); }
+ol.clases li { margin: 8px 0; } ol.clases li.sin { color: var(--suave); }
+.video { font-size: 14px; margin-left: 6px; } .resumen { color: var(--suave); }
+</style>
 </head>
 <body>
-<header class="cabeza"><div class="dentro"><img src="../assets/buho.png" alt="GinCol Lab">
-<div><span class="marca">GinCol Lab · Aula</span><div class="lema">Teacher sheets</div></div></div></header>
+<header class="cabeza"><div class="dentro"><a href="./"><img src="../assets/buho.png" alt="GinCol Lab"></a>
+<div><a class="marca" href="./">GinCol Lab · Aula</a><div class="lema">Teacher sheets</div></div></div></header>
 <main>
 <p class="idioma"><a href="../" hreflang="es">Versión en español</a></p>
 <h1>Teacher sheets</h1>
@@ -27,8 +34,8 @@ Spanish text. In Spain, the Bachillerato is the last two years of secondary scho
 <ol><li><b>Before class</b>: the video, whole or by chapters; each chapter on the sheet links to its minute.</li><li><b>In class</b>: the 50-minute plan says where to pause the video, what to ask and when to do the activity.</li><li><b>For students</b>: the PDF worksheet, without solutions; the solutions are on the teacher sheet.</li><li><b>Afterwards</b>: the practice questions are corrected at the start of the next class (spaced practice).</li></ol>
 <h2>How to cite them</h2>
 <p>GinCol Lab (year). <i>Title of the class</i>. Teacher sheet: subject, year, topic and class. Address of the sheet. CC BY 4.0. Each sheet carries its citation, ready to copy.</p>
-<h2>Bachillerato (upper secondary)</h2>
-<ul><li><a href="biologia-geologia-ccaa/t01-c1/">The Earth is too heavy</a><br><small>Biology, Geology and Environmental Sciences · 1st year of Bachillerato · Inside the Earth · Class 1 of 5 · With Nil</small></li><li><a href="filosofia/t01-c1/">What use is knowledge that makes nothing?</a><br><small>Philosophy · 1st year of Bachillerato · What is philosophy and what is it for? · Class 1 of 7 · With Javier</small></li><li><a href="fisica-y-quimica/t01-c1/">Mendeleev&#x27;s gaps</a><br><small>Physics and Chemistry · 1st year of Bachillerato · The atom and the periodic table · Class 1 of 6 · With Abril</small></li><li><a href="historia-mundo-contemporaneo/t01-c1/">Which of the two photos is lying?</a><br><small>Contemporary World History · 1st year of Bachillerato · The historian&#x27;s craft · Class 1 of 6 · With Tristán</small></li><li><a href="lengua-y-literatura-i/t01-c1/">Got the time?</a><br><small>Spanish Language and Literature I · 1st year of Bachillerato · How we understand each other · Class 1 of 7 · With Vera</small></li><li><a href="matematicas-i/t01-c1/">Do fractions fill the number line?</a><br><small>Mathematics I · 1st year of Bachillerato · Real numbers · Class 1 of 6 · With Ximena</small></li></ul>
+<h2>Year 1 of Bachillerato (upper secondary)</h2>
+<div class="materias"><a class="materia" href="matematicas-i/"><b>Mathematics I</b><small>With Ximena · 1 sheet</small></a><a class="materia" href="fisica-y-quimica/"><b>Physics and Chemistry</b><small>With Abril · 1 sheet</small></a><a class="materia" href="biologia-geologia-ccaa/"><b>Biology, Geology and Environmental Sciences</b><small>With Nil · 1 sheet</small></a><a class="materia" href="filosofia/"><b>Philosophy</b><small>With Javier · 1 sheet</small></a><a class="materia" href="historia-mundo-contemporaneo/"><b>Contemporary World History</b><small>With Tristán · 1 sheet</small></a><a class="materia" href="lengua-y-literatura-i/"><b>Spanish Language and Literature I</b><small>With Vera · 1 sheet</small></a></div>
 <p class="pie">The classes are made with artificial intelligence and reviewed by a person; we always tell you. Spotted a mistake? <a href="https://github.com/GinColLab/aula/issues">Tell us</a>: learning also means correcting.</p>
 </main>
 </body>
