@@ -1,0 +1,97 @@
+﻿red;estacion;lugar;distancia_grados;distancia_km;onda_P_directa;llegada_P_minutos;fuerza_P_um_s;a_la_hora_de_la_P_si_no_hay_P_directa_um_s;onda_que_cruza_el_nucleo_um_s;llegada_onda_del_nucleo_minutos
+II;MSVF;Monasavu, Fiji;3,6;403;sí;1,22;3918,75;;;
+IU;AFI;Afiamalu, Samoa;7,4;826;sí;1,73;800,34;;;
+AU;NIUE;Niue Island, Niue;7,9;873;sí;1,90;1035,17;;;
+IU;FUNA;Funafuti, Tuvalu;9,9;1104;sí;2,18;1014,02;;;
+IU;RAO;Raoul, Kermadec Islands;11,1;1238;sí;2,40;249,37;;;
+G;DZM;Dzumac - New Caledonia, France;15,0;1667;sí;3,06;192,03;;;
+G;NOUC;Port Laguerre - New Caledonia, France;15,1;1681;sí;3,08;148,29;;;
+IU;RAR;Rarotonga, Cook Islands;17,6;1954;sí;3,46;221,78;;;
+IU;HNR;Honiara, Solomon Islands;22,9;2551;sí;4,08;182,06;;;
+AU;LHI;Lord Howe Island;24,6;2731;sí;4,58;168,71;;;
+G;PPTF;Pamatai - Papeete - Tahiti island - French Polynesia, France;27,2;3023;sí;4,89;378,46;;;
+AU;EIDS;Eidsvold, QLD;29,4;3270;sí;5,21;128,21;;;
+AU;ARMA;Armidale, New South Wales;30,0;3341;sí;5,34;64,55;;;
+AU;RABL;Rabaul, Papua New Guinea;32,2;3580;sí;5,65;330,12;;;
+IU;CTAO;Charters Towers, Australia;33,6;3739;sí;5,82;117,25;;;
+IU;PMG;Port Moresby, New Guinea;34,7;3862;sí;5,98;347,71;;;
+AU;COEN;Coen, Queensland;37,3;4151;sí;6,34;307,24;;;
+AU;INKA;Innamincka, South Australia;38,9;4322;sí;6,53;557,41;;;
+AU;QIS;Mount Isa, Qld;39,8;4428;sí;6,66;64,85;;;
+AU;YAPP;Yappala Station, SA;41,5;4611;sí;6,87;205,09;;;
+AU;OOD;Oodnadatta, South Australia;43,3;4818;sí;7,12;332,71;;;
+II;WRAB;Tennant Creek, NT, Australia;44,8;4979;sí;7,30;276,21;;;
+IU;MIDW;Midway Island, USA;46,3;5152;sí;7,50;47,13;;;
+AU;KDU;Kakadu, NT;47,8;5312;sí;7,68;145,54;;;
+AU;MTN;Manton Dam, Northern Territory;49,0;5450;sí;7,84;115,29;;;
+AU;KNRA;Kununurra, WA;50,7;5635;sí;8,05;468,85;;;
+AU;FITZ;Fitzroy Crossing;53,2;5915;sí;8,35;165,59;;;
+AU;KMBL;Kambalda, WA;55,4;6159;sí;8,60;92,61;;;
+G;DRV;Dumont d'Urville - Terre Adelie, Antarctica;55,5;6175;sí;8,59;104,22;;;
+AU;PSAA2;Pilbara Seismic Array Element A2;58,0;6454;sí;8,90;137,36;;;
+AU;MEEK;Meekatharra, Western Australia;58,5;6508;sí;8,95;111,59;;;
+IU;SBA;Scott Base, Antarctica;60,2;6693;sí;9,14;35,97;;;
+II;KAPI;Kappang, Sulawesi, Indonesia;61,9;6888;sí;9,35;93,84;;;
+AU;GIRL;Giralia, WA;63,0;7007;sí;9,49;292,04;;;
+G;CCD;Concordia Base, Dome C, Antartica;64,7;7190;sí;9,59;47,09;;;
+IU;MAJO;Matsushiro, Japan;68,4;7610;sí;9,97;57,25;;;
+GE;UGM;GEOFON Station Wanagama, Indonesia;69,9;7768;sí;10,20;220,56;;;
+IU;QSPA;South Pole Remote Earth Science Observatory (Quiet Zone);71,8;7987;sí;10,34;110,15;;;
+IU;TATO;Taipei, Taiwan;72,8;8100;sí;10,46;141,39;;;
+IU;YSS;Yuzhno Sakhalinsk, Russia;74,0;8224;sí;10,48;65,88;;;
+IU;INCN;Inchon, Republic of Korea;76,1;8456;sí;10,74;40,40;;;
+II;XPFO;Pinon Flat, California, USA;78,3;8703;sí;10,96;22,50;;;
+IC;QIZ;Qiongzhong, Hainan Province, China;79,8;8878;sí;11,11;26,46;;;
+IU;TUC;Tucson, Arizona;81,8;9093;sí;11,24;54,14;;;
+AU;MAW;Mawson, Antarctica;83,6;9292;sí;11,40;13,78;;;
+IC;ENH;Enshi, Hubei Province, China;84,7;9420;sí;11,47;230,55;;;
+IU;ANMO;Albuquerque, New Mexico, USA;86,2;9582;sí;11,60;25,08;;;
+G;COYC;Coyhaique, Chile;87,8;9766;sí;11,77;78,11;;;
+G;AIS;Nouvelle-Amsterdam - TAAF, France;89,7;9973;sí;12,11;40,61;;;
+GT;PLCA;Paso Flores, Argentina;90,9;10102;sí;12,01;19,16;;;
+IU;RSSD;Black Hills, South Dakota, USA;91,7;10196;sí;12,03;27,96;;;
+IU;ULN;Ulaanbaatar, Mongolia;93,6;10411;sí;12,15;29,95;;;
+IU;LCO;Las Campanas Astronomical Observatory, Chile;95,7;10636;sí;12,42;8,80;;;
+IU;TIXI;Tiksi, Russia;96,6;10740;no llega (más allá de 96°);;;10,07;;
+IU;CCM;Cathedral Cave, Missouri, USA;98,7;10975;no llega (más allá de 96°);;;3,75;;
+IC;LSA;Tibet, China;99,5;11059;no llega (más allá de 96°);;;4,32;;
+IU;WVT;Waverly, Tennessee, USA;100,8;11210;no llega (más allá de 96°);;;2,23;;
+GT;LPAZ;La Paz, Bolivia;103,0;11454;no llega (más allá de 96°);;;2,21;;
+IU;DWPF;Disney Wilderness Preserve, Florida, USA;104,2;11581;no llega (más allá de 96°);;;1,51;;
+II;DGAR;Diego Garcia, Chagos Islands, Indian Ocean;105,8;11768;no llega (más allá de 96°);;;7,12;;
+GT;CPUP;Villa Florida, Paraguay;107,4;11939;no llega (más allá de 96°);;;0,83;;
+IU;SSPA;Standing Stone, Pennsylvania;109,3;12156;no llega (más allá de 96°);;;0,73;;
+IU;MAKZ;Makanchi, Kazakhstan;109,8;12205;no llega (más allá de 96°);;;1,41;;
+II;KURK;Kurchatov, Kazakhstan;112,2;12479;no llega (más allá de 96°);;;0,81;;
+II;NIL;Nilore, Pakistan;115,1;12799;no llega (más allá de 96°);;;1,23;5,35;17,31
+G;SPB;Sao Paulo, Brazil;116,4;12937;no llega (más allá de 96°);;;0,12;2,78;17,46
+II;BRVK;Borovoye, Kazakhstan;117,3;13041;no llega (más allá de 96°);;;0,42;13,08;17,38
+IU;KBL;Kabul, Afghanistan;118,7;13194;no llega (más allá de 96°);;;0,24;23,67;17,43
+GE;DAG;GEOFON/AWI Station Danmarkshavn, Greenland;120,4;13390;no llega (más allá de 96°);;;0,22;9,57;17,48
+II;ABPO;Ambohimpanompo, Madagascar;122,0;13564;no llega (más allá de 96°);;;0,18;9,84;17,54
+II;ARU;Arti, Russia;123,2;13698;no llega (más allá de 96°);;;0,21;37,69;17,57
+G;MPG;Montagne des Peres - French Guiana, France;125,3;13930;no llega (más allá de 96°);;;0,10;10,76;17,78
+IU;KEV;Kevo, Finland;126,1;14022;no llega (más allá de 96°);;;0,12;22,44;17,72
+GT;BOSA;Boshof, South Africa;128,1;14242;no llega (más allá de 96°);;;0,07;13,74;17,73
+II;UOSS;Univ. of Sharjah, Sharjah, United Arab Emirates;129,3;14376;no llega (más allá de 96°);;;0,13;15,96;17,85
+GT;LBTB;Lobatse, Botswana;131,1;14573;no llega (más allá de 96°);;;0,05;8,94;17,90
+II;OBN;Obninsk, Russia;134,6;14963;no llega (más allá de 96°);;;0,11;20,41;17,93
+GE;VSU;GEOFON Station Vasula, Estonia;135,7;15091;no llega (más allá de 96°);;;0,18;21,70;17,96
+IU;LSZ;Lusaka, Zambia;137,7;15312;no llega (más allá de 96°);;;0,03;21,88;18,02
+II;RAYN;Ar Rayn, Saudi Arabia;139,0;15454;no llega (más allá de 96°);;;0,03;22,45;18,06
+IU;KMBO;Kilima Mbogo, Kenya;140,2;15590;no llega (más allá de 96°);;;0,02;24,57;18,10
+IU;FURI;Mt. Furi, Ethiopia;143,1;15911;no llega (más allá de 96°);;;0,16;153,22;18,43
+II;SHEL;Horse Pasture, St. Helena Island;145,1;16136;no llega (más allá de 96°);;;0,77;176,81;18,55
+II;MBAR;Mbarara, Uganda;146,0;16232;no llega (más allá de 96°);;;0,03;116,07;18,26
+IU;GRFO;Grafenberg, Germany;147,5;16404;no llega (más allá de 96°);;;0,06;132,38;18,35
+II;BFO;Black Forest Observatory, Schiltach, Germany;149,3;16604;no llega (más allá de 96°);;;0,02;98,45;18,41
+G;CLF;Chambon la Foret Observatory, France;150,1;16688;no llega (más allá de 96°);;;0,08;121,68;18,64
+G;SSB;Tunnel de Badole - Saint Sauveur en Rue, France;152,7;16983;no llega (más allá de 96°);;;0,03;24,98;18,63
+MN;TIP;Timpagrande, Italy;155,3;17265;no llega (más allá de 96°);;;0,04;24,15;18,58
+MN;CEL;Celeste, Italy;156,4;17392;no llega (más allá de 96°);;;;7,64;18,66
+MN;CLTB;Caltabellotta, Italy;158,1;17583;no llega (más allá de 96°);;;;58,47;18,82
+MN;WDD;Wied Dalam, Malta;159,0;17682;no llega (más allá de 96°);;;;12,73;18,85
+G;MBO;M'Bour, Senegal;161,6;17966;no llega (más allá de 96°);;;;12,08;19,00
+MN;RTC;Rabat, Morocco;162,3;18049;no llega (más allá de 96°);;;;19,83;18,94
+GT;DBIC;Dimbokro, Ivory Coast;166,8;18549;no llega (más allá de 96°);;;;15,24;18,96
+G;TAM;Tamanrasset, Algeria;174,2;19368;no llega (más allá de 96°);;;;11,63;19,02
