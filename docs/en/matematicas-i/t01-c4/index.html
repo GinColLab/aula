@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Intervals and absolute value: distances on the number line · GinCol Lab teacher sheet</title>
+<meta name="description" content="Teacher sheet for «Intervals and absolute value: distances on the number line» (Mathematics I · 1st year of Bachillerato · The real numbers · Class 4 of 6): objective, curriculum, typical mistakes, solutions and a classroom activity.">
+<link rel="icon" href="../../../assets/buho.png">
+<link rel="stylesheet" href="../../../assets/aula.css">
+</head>
+<body>
+<header class="cabeza"><div class="dentro">
+  <a href="../../../en/"><img src="../../../assets/buho.png" alt="GinCol Lab"></a>
+  <div><a class="marca" href="../../../en/">GinCol Lab · Aula</a><div class="lema">Teacher sheets</div></div>
+</div></header>
+<main>
+<div class="miga"><a href="../../../en/matematicas-i/">Mathematics I</a> · 1st year of Bachillerato · The real numbers · Class 4 of 6 · With Ximena</div>
+<h1>Intervals and absolute value: distances on the number line</h1>
+<div class="botones"><a class="boton" href="https://youtu.be/MF3P3M3Lt9g">Watch the class on YouTube (in Spanish, with English subtitles)</a><a class="boton claro" href="teacher-sheet.pdf">Download the sheet (PDF)</a><a class="boton claro" href="student-sheet.pdf">Student worksheet (PDF)</a><a class="boton claro" href="https://agora.gincol.com/t/intervalos-y-valor-absoluto-distancias-en-la-recta-matematicas-i-para-el-profesorado/62">Discuss it with other teachers in the Ágora (in Spanish)</a><a class="boton claro" href="../../../matematicas-i/t01-c4/" hreflang="es">Versión en español</a></div>
+
+<h2>In a nutshell</h2>
+<p>Class 3 filled the number line: every point is a real number. This one asks which numbers are <strong>close</strong> to a given one, and how to say so with complete precision. It starts by retrieving the midpoint from the first class (between two numbers there is always room for another), which is needed twice today, and by correcting the three exercises from the previous class; the third, which is closer to π, 3.14 or 22/7?, leaves the class its first distance: what matters is how far each one is off, not which way. The hook is a made-up 20 mm part, "plus or minus a tenth of a millimetre". The parts that pass form a stretch of the line, the <strong>closed interval</strong> [19.9, 20.1], because "plus or minus a tenth" means "at most a tenth", and the endpoint counts. Then, the edge: with the age of majority in the Spanish Constitution (art. 12), minors are [0, 18) and adults, [18, +∞). The class asks what the highest age of a minor is, and the answer is that there isn't one: between any candidate and 18 there is room for their midpoint, and 17.9 recurring is already 18 (class 1). The interval of minors has no last number; that of adults does have a first one. Three panels explain why the edge "has an owner": with both endpoints closed, on your 18th birthday you would be a minor and an adult at once; with both open, neither. With the four kinds of interval written down, the <strong>absolute value</strong> arrives: subtracting tells you which way and how far, and the absolute value keeps the how far. |x| is the distance from x to 0, and |x − a|, the distance between a and x, checked in both cases. The two ideas come together in <strong>the window</strong>: |x − 20| ≤ 0.1 is the part's interval told with its centre and its radius, and in general |x − a| ≤ r is [a − r, a + r]; the open one is called the <strong>neighbourhood</strong> with centre a and radius r. The class stops to read the formula: if the radius grows, the window opens; if it becomes zero, only the centre is left; and |x − a| &lt; 0 is satisfied by no number, because a distance is never negative. Then, the way back, from an interval to its absolute value, with the midpoint and half the length: one worked in full and one with gaps. The typical mistake is solving |x| &lt; 3 by dropping the bars, which gives (−∞, 3): −5 is in there and does not satisfy it. And |x| &gt; 3, outside the window, is two stretches joined by the union. The open question comes out of the window with radius zero: if every measurement is an interval, does an exact measurement exist?</p>
+<p><strong>Objective.</strong> By the end, students will be able to write a set of numbers as an interval and translate |x − a| &lt; r into an interval centred on a.</p>
+<p><strong>What this sheet adds.</strong> The class gets straight to the point, and whatever does not answer its question is here: why the interval of minors has no maximum and what the supremum is, for anyone who asks; the notation ]a, b[, which students will see in French books and which the ISO 80000-2 standard allows; why the decimal comma forces the semicolon; real tolerances, with the ISO 2768-1 standard and the go/no-go gauge; where the two bars come from (Weierstrass); the absolute value as a piecewise function, which will come with functions; the inequalities with absolute value that will come in topic 3; and distance in the plane, which generalises distance on the line.</p>
+<p><strong>The words.</strong> "Interval" is a stretch of the line with no gaps, with or without its endpoints. "Ray", or half-line (in Spanish, <em>semirrecta</em>), is one that reaches infinity on one side; some books also call it an infinite or unbounded interval. "Neighbourhood with centre a and radius r" is the open interval (a − r, a + r); many books call [a − r, a + r] a closed neighbourhood.</p>
+<p><em>For readers outside Spain:</em> the Bachillerato is the last two years of secondary school (ages 16–18). Mathematics I is the mathematics of the first year in the science and technology track; ESO is the compulsory secondary stage before it (ages 12–16), and its fourth year, 4.º ESO, corresponds to Year 10 in England. The video is in Spanish, with English subtitles; the images on this sheet come from the video and keep their Spanish text. In Spain the decimal separator is a comma, so the video writes 19,9 for 19.9 and separates the endpoints of an interval with a semicolon, [19,9; 20,1]; this sheet uses the decimal point and writes [19.9, 20.1]. The class says that a part <em>vale</em> (literally "is valid"); the English subtitles say that it "passes", and so does this sheet. <em>Paréntesis</em> is a round bracket and <em>corchete</em>, a square bracket.</p>
+<h2>Curriculum</h2>
+<p>Spain's Royal Decree 243/2022, Mathematics I, a subject of the science and technology track in the first year of Bachillerato (consolidated text in the Official State Gazette, BOE; the Mathematics annex has not changed since 2022). Our translation of the official Spanish text. No core knowledge in Mathematics I names intervals or the absolute value: intervals belong to 4.º ESO, and the absolute value is not named in any national decree, although several autonomous communities do name it (Madrid, Andalusia and Galicia, for example, in Mathematics I). This class works on them in the service of what the decree asks for most strongly in Bachillerato: checking solutions, connecting ideas and communicating with precision. Times are those of the video.</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>What the decree says</th>
+<th>Where the class works on it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Core knowledge A.1</strong> (A. Number sense, 1. Sense of operations)</td>
+<td>"Strategies for operating with real numbers and vectors: mental or written calculation in simple cases and with technological tools in more complicated ones."</td>
+<td>The midpoint (0:36), the subtractions for the parts (7:23), the centre and radius of an interval (11:38), all done mentally; and exercise 1, which asks students to compare squares</td>
+</tr>
+<tr>
+<td><strong>Core knowledge D.3</strong> (D. Algebraic sense, 3. Equality and inequality)</td>
+<td>"Solving equations, inequalities and systems of non-linear equations and inequalities in different contexts."</td>
+<td>It prepares the ground: |x − 20| ≤ 0.1 is an inequality and its solution, an interval (10:02); |x| &lt; 3 and |x| &gt; 3 are solved (12:43–14:05). Inequalities in general are topic 3</td>
+</tr>
+<tr>
+<td><strong>Core knowledge D.4</strong> (D. Algebraic sense, 4. Relations and functions)</td>
+<td>"Properties of the different classes of functions, including polynomial, exponential, irrational, simple rational, logarithmic, trigonometric and piecewise functions: understanding and comparison."</td>
+<td>It prepares the ground: the rule for |x|, with one piece for x ≥ 0 and another for x &lt; 0 (7:54), is the first piecewise function of the year, although it is not yet drawn as a function</td>
+</tr>
+<tr>
+<td><strong>Core knowledge F.1</strong> (F. Socio-affective sense, 1. Beliefs, attitudes and emotions)</td>
+<td>"Handling error, individually and collectively, as something that mobilises previously acquired knowledge and creates learning opportunities in the mathematics classroom."</td>
+<td>The mistake of dropping the bars (12:43), with its pause so that students think about it first; and the trap of 17.999… (5:40)</td>
+</tr>
+<tr>
+<td><strong>Specific competence 2</strong></td>
+<td>"To verify the validity of the possible solutions to a problem, using reasoning and argument to check their suitability."</td>
+<td>The −5 that takes apart the solution (−∞, 3) (13:08): checking a solution with a specific number; and the two cases of |x − a| (8:57)</td>
+</tr>
+<tr>
+<td><strong>Specific competence 5</strong></td>
+<td>"To establish, investigate and use connections between different mathematical ideas, linking concepts, procedures, arguments and models, in order to give meaning to and structure mathematical learning."</td>
+<td>The midpoint from class 1, which reappears in the interval with no last number (5:40) and in the centre of the window (9:44 and 11:38); 0.999… = 1 from class 1 (6:06); and distance, which brings intervals and absolute value together (10:02)</td>
+</tr>
+<tr>
+<td><strong>Specific competence 6</strong></td>
+<td>"To discover the links between mathematics and other areas of knowledge and to deepen those connections, relating concepts and procedures, in order to model, solve problems and develop critical, creative and innovative capacity in a variety of situations."</td>
+<td>With technology, the tolerance of a part (2:51); with law, the age of majority in the Constitution (4:28); with physics, measurement and its margin (15:08)</td>
+</tr>
+<tr>
+<td><strong>Specific competence 7</strong></td>
+<td>"To represent mathematical concepts, procedures and information, selecting different technologies, in order to visualise ideas and structure mathematical reasoning."</td>
+<td>Each set, in three ways: with inequalities, drawn on the line and in interval notation (6:43)</td>
+</tr>
+<tr>
+<td><strong>Specific competence 8</strong></td>
+<td>"To communicate mathematical ideas, individually and collectively, using the appropriate medium, terminology and rigour, in order to organise and consolidate mathematical thinking."</td>
+<td>The notation: square or round bracket, the semicolon with the decimal comma, infinity always open, the union</td>
+</tr>
+<tr>
+<td><strong>Specific competence 9</strong></td>
+<td>"To use personal and social skills, identifying and managing one's own emotions, respecting those of others and actively organising work in mixed teams, learning from error as part of the learning process and facing situations of uncertainty, in order to persevere in achieving goals in learning mathematics."</td>
+<td>The bets (3:30 and 5:22) and the mistake (12:43), with no penalty for getting it wrong</td>
+</tr>
+<tr>
+<td><strong>Criterion 2.1</strong></td>
+<td>"To check the mathematical validity of the possible solutions to a problem, using reasoning and argument."</td>
+<td>The −5 (13:08); and exercise 1, which asks whether √2 and √5 are inside</td>
+</tr>
+<tr>
+<td><strong>Criterion 5.1</strong></td>
+<td>"To show an integrated view of mathematics, investigating and connecting different mathematical ideas."</td>
+<td>The midpoint and the 0.999… from class 1, inside this one</td>
+</tr>
+<tr>
+<td><strong>Criterion 6.1</strong></td>
+<td>"To solve problems in a variety of situations, using mathematical processes and establishing and applying connections between the real world, other areas of knowledge and mathematics."</td>
+<td>The part and the age of majority; the challenge on the student worksheet</td>
+</tr>
+<tr>
+<td><strong>Criterion 7.1</strong></td>
+<td>"To represent mathematical ideas, structuring different kinds of mathematical reasoning and selecting the most suitable technologies."</td>
+<td>The live window, which slides and opens (10:29)</td>
+</tr>
+<tr>
+<td><strong>Criterion 8.2</strong></td>
+<td>"To recognise and use mathematical language in different contexts, communicating information with precision and rigour."</td>
+<td>All the class's notation, and the reason for each sign</td>
+</tr>
+<tr>
+<td><strong>Criterion 9.1</strong></td>
+<td>"To face situations of uncertainty, identifying and managing emotions and accepting and learning from error as part of the process of learning mathematics."</td>
+<td>The bets and the mistake</td>
+</tr>
+</tbody>
+</table>
+<p><strong>What students bring from lower secondary (ESO)</strong> (Royal Decree 217/2022, consolidated text). In year 4, in both options: "Order on the number line. Intervals." (A.4 in Mathematics A; A.3 in Mathematics B). That is why the voice says "like the ones you already saw in Year 10 (4.º ESO)": the class retrieves them and takes them further. The absolute value is not required by the ESO decree; many books teach it in year 2 or 3, with the integers. From the topic's earlier classes: the midpoint (class 1), 0.999… = 1 (class 1), √2 and √5 (classes 2 and 3), and the line with no gaps (class 3).</p>
+<h2>How the class is built</h2>
+<p><strong>Video chapters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Minute</th>
+<th>Chapter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=0">0:00</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=0">What we'll see</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=22">0:22</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=22">What you already know</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=56">0:56</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=56">Solutions to the previous class</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=171">2:51</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=171">Stretches of the line</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=268">4:28</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=268">The edge: in or out</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=443">7:23</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=443">Distance: the absolute value</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=602">10:02</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=602">The window: centre and radius</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=763">12:43</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=763">The mistake: forgetting one side</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=845">14:05</a></td>
+<td><a href="https://youtu.be/MF3P3M3Lt9g?t=845">Practice and keep thinking</a></td>
+</tr>
+</tbody>
+</table>
+<p>Almost sixteen minutes (15:46), in nine chapters, with one thread: retrieve and correct; a stretch of the line; the edge; distance; the window, which brings the two ideas together; a mistake; practise. It has two stops to think about what is being done (the interval with no last number, 5:40, and the window's formula read aloud, 11:06), in a few sentences and with their silence. Ximena appears on camera four times, about twenty seconds in all: to say hello (0:00), with the hook (2:51), halfway through (7:16) and to say goodbye (15:37).</p>
+<table>
+<thead>
+<tr>
+<th>Chapter</th>
+<th>What happens</th>
+<th>Why this way</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What we'll see (0:00)</td>
+<td>Ximena says hello. The map of the topic's six classes, with the fourth highlighted. "Today we're going to measure distances on the number line": which numbers are close to a given one, and how far one number is from another.</td>
+<td>Topic 1 keeps its numbered map. The question grows out of the previous class: if every point is a number, how do you say "close"?</td>
+</tr>
+<tr>
+<td>What you already know (0:22)</td>
+<td>Is there always room for another number between two? How do you find it? Pause. Yes: the midpoint, (a + b)/2; between 1 and 2, 1.5; between 1 and 1.5, 1.25, and so on without end (0:36). "Today we'll need it twice."</td>
+<td>Retrieval before hearing the answer. The two times: the interval with no last number (5:40) and the centre of the window (9:44, 11:38).</td>
+</tr>
+<tr>
+<td>Solutions to the previous class (0:56)</td>
+<td>√10 with a triangle with legs 3 and 1. The order, digit by digit (1:29): the third digit separates 1.41; the fifth, the other three. And π: 3.14 falls short by about 16 ten-thousandths; 22/7 overshoots by about 13 (2:11). "We didn't care which way each one is off, only how far. That's a distance."</td>
+<td>Each one with its question, and brief. The third opens the class: it is a distance with no name yet.</td>
+</tr>
+<tr>
+<td>Stretches of the line (2:51)</td>
+<td>The hook: "Imagine a factory…". The parts that pass, from 19.9 to 20.1 (2:59); four slowly and a made-up batch at speed. Does the one of exactly 20.1 pass? Pause (3:30). It passes: "plus or minus a tenth" is "at most a tenth" (3:40). The closed interval [19,9; 20,1], with a semicolon, and with inequalities.</td>
+<td>Once slowly and the rest at speed: the interval comes out of the data. The question about the edge prepares the next part.</td>
+</tr>
+<tr>
+<td>The edge: in or out (4:28)</td>
+<td>The Constitution, art. 12. Minors, [0, 18), with the 18 hollow; adults, [18, +∞), and infinity always with a round bracket: it "isn't a number on the line" (4:59). What is the largest number in [0, 18)? Pause (5:22). There isn't one: between any number and 18 there is room for their midpoint, and 17.999… is already 18 (5:40). Three panels: both closed, both open, one of each (6:19). The four kinds, in parallel rows (6:43). Ximena halfway through (7:16).</td>
+<td>What nobody tells you: the half-open interval is not a whim of notation; it decides which side the edge falls on. The magnifying glass comes from the 18: first where, then what is there.</td>
+</tr>
+<tr>
+<td>Distance: the absolute value (7:23)</td>
+<td>Subtracting tells you which way and how far (7:23). The absolute value removes the sign; the rule, in pieces, with the "minus x" explained; |x| is the distance from 0 (7:54). |x − a|, the distance between a and x, with the live figure as x moves (8:33). How do we know? Two cases, and −2 and 3 counted step by step (8:57). Which number is the same distance from 1 as from 5? Pause (9:32). 3, their midpoint (9:44).</td>
+<td>First the intuition (the parts), then the exact version (the rule), and the proof of what is claimed. The live figure shows what chalk cannot: the sign changes and the distance does not.</td>
+</tr>
+<tr>
+<td>The window: centre and radius (10:02)</td>
+<td>|x − 20| ≤ 0.1 is the part's interval, with its centre and its radius (10:02). The live window: it slides and opens; |x − a| ≤ r ⇔ [a − r, a + r], and the open one is the neighbourhood (10:29). To think about: the formula read aloud (11:06). The other way round: [3, 7], in full (11:38), and (2, 8), with gaps and a pause (12:09–12:22).</td>
+<td>The central animation. First the empty form, |x − ○| ≤ ○, and each number travels to its gap in its own colour. A worked example, then one with gaps.</td>
+</tr>
+<tr>
+<td>The mistake: forgetting one side (12:43)</td>
+<td>Solving |x| &lt; 3 by dropping the bars gives (−∞, 3). Pause. The step, "dropping the bars", is crossed out, not the arrow: the implication "if |x| &lt; 3, then x &lt; 3" is true. −5 is in that stretch and does not satisfy it: |−5| = 5 (13:08). The solution is (−3, 3). And |x| &gt; 3: two stretches, with the union (13:37).</td>
+<td>The mistake, taken apart with a counterexample: it is checking a solution (criterion 2.1).</td>
+</tr>
+<tr>
+<td>Practice and keep thinking (14:05)</td>
+<td>Recap. Three exercises (14:36). The open question, with its pause: does an exact measurement exist? (15:08). Class 5, logarithms (15:30), and the goodbye (15:37).</td>
+<td>The solutions open the next class. The open question also goes in the comments.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bridges with other subjects.</strong> Physics and Chemistry: every measurement has its uncertainty, and it is written as a value with its margin, just like the part (that is the idea behind the open question; Physics and Chemistry works on it in its topic on measurement). Technology and Technical Drawing: the tolerances on technical drawings (see "In depth"). Economics and Law: age, income or price bands are intervals, and whoever drafts a rule decides which side each edge falls on.</p>
+<figure><img src="img/p8.jpg" alt="The parts that pass form a stretch: the closed interval [19.9, 20.1]." loading="lazy"><figcaption>The parts that pass form a stretch: the closed interval [19.9, 20.1].</figcaption></figure>
+<p>![What is the highest age of a minor? Between any candidate and 18 there is room for their midpoint: the interval <a href="img/p12.jpg">0, 18) has no last number.</a></p>
+<figure><img src="img/p13.jpg" alt="The edge has an owner: with one open and the other closed, each age falls on just one side." loading="lazy"><figcaption>The edge has an owner: with one open and the other closed, each age falls on just one side.</figcaption></figure>
+<h2>A plan for a 50-minute lesson</h2>
+<p>Designed for watching the whole video in class, in sections, with the student worksheet.</p>
+<table>
+<thead>
+<tr>
+<th>Minutes</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–5</td>
+<td>No video, in pairs: "Before watching the video", on the worksheet. The six parts, the two subtractions and the bet on the age.</td>
+</tr>
+<tr>
+<td>5–8</td>
+<td>Video from 0:00 to 2:51: the map, the retrieval question (stop at the pause and answer aloud) and the solutions to class 3. If these have already been corrected in class, skip from 0:56 to 2:51.</td>
+</tr>
+<tr>
+<td>8–12</td>
+<td>Video from 2:51 to 4:28: the part. Stop at 3:30 and vote by show of hands on whether the one of 20.1 passes; compare with the table of parts from the start.</td>
+</tr>
+<tr>
+<td>12–19</td>
+<td>Video from 4:28 to 6:43: the edge. Stop at 5:22: everyone writes down their bet and two or three are read out. After 6:19, one minute: what other edges do you know (prices, ages, marks)?</td>
+</tr>
+<tr>
+<td>19–24</td>
+<td>Video from 6:43 to 7:23: the four kinds. No video, the worksheet's table "The four kinds", in pairs.</td>
+</tr>
+<tr>
+<td>24–30</td>
+<td>Video from 7:23 to 9:44: the absolute value. Stop at 9:32 and answer on the worksheet.</td>
+</tr>
+<tr>
+<td>30–36</td>
+<td>Video from 9:44 to 12:22: the window. Stop at 12:09 and do (2, 8) on the worksheet before seeing the solution.</td>
+</tr>
+<tr>
+<td>36–40</td>
+<td>Video from 12:22 to the end (15:46): the mistake, the exercises and the open question. Stop at the mistake and ask before going on.</td>
+</tr>
+<tr>
+<td>40–50</td>
+<td>"The window, with gaps", on the worksheet, in pairs, and the whole-class discussion: it forces students to go from an interval with a negative endpoint to its absolute value, which is where most mistakes are made. Homework: the three exercises and the open question.</td>
+</tr>
+</tbody>
+</table>
+<h2>Typical mistakes and how they are handled</h2>
+<p>With an honest warning: as far as we know, none of them has been measured with Spanish Bachillerato students. They are confusions the design anticipates and that the topic sheet records.</p>
+<ol>
+<li><strong>Solving |x| &lt; 3 by dropping the bars: "x &lt; 3", that is, (−∞, 3).</strong> The class raises it with a pause (12:43) and takes it apart with a number that is in that stretch and does not satisfy it: −5 &lt; 3, but |−5| = 5, which is not less than 3 (13:08). Take care how it is stated: the implication "if |x| &lt; 3, then x &lt; 3" is <strong>true</strong>, because (−3, 3) lies inside (−∞, 3). What is false is that (−∞, 3) is the solution. Students should see both things: a mistake of logic (confusing a consequence with an equivalence) and one of calculation (losing a side). The rule the class leaves: |x| &lt; r means being less than r from zero, on both sides.</li>
+<li><strong>Infinity with a square bracket: [18, +∞].</strong> It is dealt with at 4:59: infinity is not a real number, and there is no point on the line at which to close. In later courses students will see the "extended real line", with ±∞ as elements, and that is why the screen says <em>número real</em>, "real number".</li>
+<li><strong>"The interval [0, 18) ends at 17.999…".</strong> It is the trap at 5:40, and class 1 closes it: 17.999… = 18, which is not in the interval. And any specific decimal number less than 18 has another between it and 18, their midpoint. The interval has a <strong>supremum</strong> (18) but no <strong>maximum</strong>; see "In depth".</li>
+<li><strong>Confusing the sign of the subtraction with the distance: "the distance from 19.97 to 20 is −0.03".</strong> It is dealt with at 7:23: the subtraction tells you which way and how far; the distance, only how far. The live figure at 8:33 reinforces it.</li>
+<li><strong>"|x| = −x means that the absolute value is negative".</strong> The rule writes −x for negative x, and then −x is positive: if x = −3, −x = 3. The class says it aloud (7:54) because the confusion is a classic.</li>
+<li><strong>|x + 1| read as "the distance to 1".</strong> The class does not get to it, and exercise 2 invites it: |x + 1| = |x − (−1)| is the distance to −1. It is worth saying in class when correcting.</li>
+<li><strong>Centre and radius the wrong way round, or the radius taken as the whole length.</strong> It is the mistake of the way back (11:38). [3, 7] is 4 long, and the radius is 2, half of it. The student worksheet practises it with an interval with a negative endpoint, [−4, 10], where the radius, 7, cannot be seen at a glance.</li>
+</ol>
+<figure><img src="img/p28.jpg" alt="The mistake: (−∞, 3) is not the solution of |x| &lt; 3; −5 is in that stretch and does not satisfy it." loading="lazy"><figcaption>The mistake: (−∞, 3) is not the solution of |x| &lt; 3; −5 is in that stretch and does not satisfy it.</figcaption></figure>
+<h2>Questions and solutions</h2>
+<p><strong>Stop and think (in the video)</strong></p>
+<ul>
+<li><em>Between two different numbers, is there always room for another? And how would you find it?</em> (0:22) Yes: the midpoint, (a + b)/2, lies between the two and at the same distance from each. Repeating, you find infinitely many. It is the "density" from class 1, which was seen there with fractions and works just the same with any pair of real numbers.</li>
+<li><em>And a part that measures exactly 20.1? Does it pass or not?</em> (3:30) It passes: "plus or minus a tenth" is "at most a tenth", and 20.1 is off by exactly a tenth. What deserves the mark is the reason, not the yes. In a real workshop, nobody measures "exactly 20.1": the instrument has its margin (see the open question).</li>
+<li><em>What is the highest age a minor can be? That is, the largest number in [0, 18).</em> (5:22) There isn't one. If someone names a number x &lt; 18, (x + 18)/2 lies between x and 18, and is still less than 18. And 17.999… does not count, because it is 18. <strong>Marking criteria:</strong> the midpoint argument, or any other that shows that for every candidate there is a larger one inside; "17.999…" as an answer, with its refutation.</li>
+<li><em>Which number is the same distance from 1 as from 5?</em> (9:32) 3: |3 − 1| = |3 − 5| = 2. It is the midpoint, (1 + 5)/2. And it is the only one: to the left of 1, any number is closer to 1 than to 5; between 1 and 5, only the midpoint is equidistant; to the right of 5, closer to 5.</li>
+<li><em>The open interval from 2 to 8: its centre? And its radius?</em> (12:09) Centre 5, (2 + 8)/2; radius 3, (8 − 2)/2. Since it is open, |x − 5| &lt; 3.</li>
+<li><em>Some people solve |x| &lt; 3 by dropping the bars: x &lt; 3, from minus infinity to 3. What is wrong?</em> (12:43) See mistake 1.</li>
+</ul>
+<p><strong>The two stops to think</strong></p>
+<ul>
+<li><em>The interval with no last number</em> (5:40–6:19). What the class says is exact and needs nothing more: for every number less than 18 there is another that is larger and still less than 18. For anyone who wants to name it: 18 is the <strong>supremum</strong> of [0, 18), the least of its upper bounds, but it is not its <strong>maximum</strong>, because it does not belong to the interval. That every set of reals bounded above has a supremum is another form of the axiom of the line with no gaps from class 3: with fractions it would not happen (the set of fractions whose square is less than 2 has no supremum among the fractions). A question for debate: is there a last instant at which you are a minor? According to the Spanish Civil Code, art. 240, "Adulthood begins at eighteen full years of age" (our translation), and the day of birth counts in full: you are an adult from the start of the day of your birthday. If time is measured with real numbers, there is no last instant of being a minor, but there is a first instant of being an adult. In criminal law, the Supreme Court counts from moment to moment, with the time of birth; the class does not go into that.</li>
+<li><em>The formula read aloud</em> (11:06–11:38). |x − a| ≤ r: if r grows, the window opens; if r = 0, only x = a satisfies it; with &lt; 0, no number, because a distance is never negative. With r &lt; 0, |x − a| ≤ r has no solution either: the class does not say so, to avoid opening a case that is not needed, but students can deduce it. And the final sentence, "with radius 0, only a perfect part would pass", prepares the open question.</li>
+</ul>
+<figure><img src="img/p22.jpg" alt="The window: |x − a| ≤ r is the interval [a − r, a + r]; the open one is the neighbourhood with centre a and radius r." loading="lazy"><figcaption>The window: |x − a| ≤ r is the interval [a − r, a + r]; the open one is the neighbourhood with centre a and radius r.</figcaption></figure>
+<p><strong>From the student worksheet</strong></p>
+<ul>
+<li><em>Before watching the video: the six parts.</em> 20.07, 19.97, 20.1 and 19.9 pass; 20.13 and 19.85 do not. The expected doubt is about the two endpoints: they pass.</li>
+<li><em>7 − 3 and 3 − 7.</em> 4 and −4. From 3 to 7 it is 4, and from 7 to 3 too: the distance is the absolute value of either subtraction.</li>
+<li><em>The bet on the age.</em> There is no answer: it is the trap at 5:22.</li>
+<li><em>While you watch the video.</em> These are the stop-and-think questions above and the class in questions. The semicolon: with the decimal comma, a comma between the endpoints would be confusing ([19,9, 20,1] could be read as three numbers). The 18: closed in [18, +∞) because at 18 you are already an adult; open in [0, 18) for the same reason. Infinity, open: it is not a real number, and there is no point at which to close. The sign and the absolute value: which way and how far. The −x: see mistake 5. The window: it opens, it shrinks to the centre, no number. The mistake: −5, and the solution (−3, 3).</li>
+<li><em>The four kinds.</em> [19.9, 20.1], closed; (2, 5), open; [0, 18), half-open (closed on the left); (−∞, 3), a ray, open.</li>
+<li><em>The window, with gaps: [−4, 10].</em> Centre (−4 + 10)/2 = 3; radius (10 − (−4))/2 = 7; |x − 3| ≤ 7, with ≤ because the endpoints are in. Check: |−4 − 3| = 7 ≤ 7, it satisfies it; |10 − 3| = 7, it satisfies it; |11 − 3| = 8 &gt; 7, it does not. Open: |x − 3| &lt; 7, the neighbourhood with centre 3 and radius 7. <strong>What will come up:</strong> radius 3 (confusing centre and radius) or 6 (subtracting −4 wrongly).</li>
+</ul>
+<p><strong>Practice (the solutions open class 5)</strong></p>
+<ol>
+<li><em>Write |x − 2| ≤ 0.5 as an interval. Are √2 and √5 inside it?</em> The numbers 0.5 or less from 2: [1.5, 2.5]. √2 is outside: 1.5² = 2.25 &gt; 2, so √2 &lt; 1.5. √5 is inside: 2.25 &lt; 5 &lt; 6.25 = 2.5², so 1.5 &lt; √5 &lt; 2.5. <strong>Marking criteria:</strong> the closed interval, with the semicolon if it is written with decimal commas; the comparison by squares (class 2: for positive numbers, the order of the squares is the order of the numbers) or with decimals, saying why the approximation is enough (√2 = 1.414…, √5 = 2.236…). <strong>What will come up:</strong> "(1.5, 2.5)", open: the ≤ says that the endpoints are in.</li>
+<li><em>Write [−1, 3] with an absolute value.</em> Centre (−1 + 3)/2 = 1; radius (3 − (−1))/2 = 2: |x − 1| ≤ 2. <strong>What will come up:</strong> |x + 1| ≤ 2 (the centre with its sign changed; see mistake 6); |x − 1| &lt; 2 (the interval is closed); radius 4 (the whole length).</li>
+<li><em>Which numbers satisfy |x − 1| &gt; 2? Write it with intervals.</em> Those more than 2 from 1: less than −1 or greater than 3. (−∞, −1) ∪ (3, +∞), with the endpoints open because the &gt; is strict. <strong>What will come up:</strong> "(−1, 3)", which is exactly the opposite (what is inside the window); or (−∞, −1] ∪ [3, +∞), with the endpoints closed.</li>
+</ol>
+<p><strong>More from the student worksheet</strong></p>
+<ul>
+<li><em>Is [0, 1) the same as [0, 0.999…]?</em> No: 0.999… = 1, so [0, 0.999…] is [0, 1], which contains 1, and [0, 1) does not. It is class 1 in the service of today's.</li>
+<li><em>Is π in (3.14, 22/7)? What is its centre?</em> Yes: 3.14 &lt; π &lt; 22/7 (class 3: 3.14 falls short and 22/7 overshoots). Its centre is (3.14 + 22/7)/2 = 3.14142857…, which is not π: it is closer, about 0.00016 from π, but it is not π. A good opportunity to recall that the midpoint of two approximations is not the number.</li>
+<li><em>The challenge: 50 mm, ± 0.2.</em> The ones that pass are |x − 50| ≤ 0.2, that is, [49.8, 50.2]. As numbers, the ones that do not pass are (−∞, 49.8) ∪ (50.2, +∞); as lengths of parts, from 0 to 49.8 (not including either) or more than 50.2. The largest distance between two parts that pass is 0.4 mm, the length of the window, twice the radius.</li>
+</ul>
+<p><strong>Keep thinking.</strong> <em>No measurement comes out with radius zero: every measurement has its margin, and it is an interval. So what does it mean that something measures exactly two metres? Does an exact measurement exist?</em> The class leaves it open. Some pointers for the debate:</p>
+<ul>
+<li><strong>What metrology says.</strong> The result of a measurement "is only an approximation or estimate of the value of the measurand and thus is complete only when accompanied by a statement of the uncertainty" (GUM, JCGM 100:2008, 3.1.2): a measurement is a value with its uncertainty. That a single number is sometimes given means that the margin is considered negligible for the purpose at hand (VIM, JCGM 200:2012, 2.9, note 2), not that it does not exist.</li>
+<li><strong>Exact by definition.</strong> Some things are exact, because they are defined that way. Since 1983, the metre has been defined by fixing the speed of light in a vacuum: exactly 299 792 458 m/s (BIPM, the International System of Units, SI Brochure). What is exact is the definition, not any particular measurement. It is a good distinction for the classroom: measuring and defining.</li>
+<li><strong>Mathematics and the world.</strong> On the line, "two" is a point, radius zero. In the world, every measurement is a window. Is the real line an idealisation of the world, or is the world like that and we cannot get there? It links with the reflection in class 3 on continuous space: nobody knows.</li>
+<li><strong>The teacher moderates and does not close the debate.</strong></li>
+</ul>
+<h2>In depth</h2>
+<p><strong>Supremum and maximum.</strong> A set bounded above has a supremum if there is an upper bound smaller than all the others. [0, 18) has supremum 18 and no maximum; [0, 18] has both. The existence of the supremum for every non-empty bounded set of reals is equivalent to the axiom of the line with no gaps from class 3 (Dedekind, 1872, with his cuts): with fractions it fails, because {q rational : q² &lt; 2} is bounded and has no rational supremum. It is first-year university material; in Bachillerato the midpoint argument the class gives is enough.</p>
+<p><strong>The notation ]a, b[.</strong> The international standard for mathematical signs and symbols, ISO 80000-2:2019, item 2-7.10, writes the open interval (a, b) and adds: "The notation ]a, b[ is also used". In France it is the usual one (there, also with a semicolon: ]a ; b[). That it was introduced by the Bourbaki group is often repeated, but we have not been able to confirm it in a primary source, so we do not claim it. For students: it is another way of writing the same thing, and it is worth knowing because it appears in books and at university.</p>
+<p><strong>The semicolon.</strong> The same standard, in its clause 4, says that the comma is the preferred separator between the elements of a list "except when numbers with a decimal comma are used". In Spanish, the semicolon goes right after the number before it: [19,9; 20,1]. With whole-number endpoints, the comma is enough: [0, 18).</p>
+<p><strong>Real tolerances.</strong> The class's part is an example, but the margin is not made up. The standard ISO 2768-1:1989 (in Spain, UNE-EN 22768-1:1994, identical) sets <strong>general</strong> tolerances: those for the dimensions a technical drawing shows with no tolerance written on them. The title block of the drawing says, for example, "ISO 2768-f", and then a dimension of 20 mm, which is between 6 and 30 mm, allows ± 0.1 mm in the fine class (± 0.2 in the medium class, ± 0.5 in the coarse class). If the drawing says "20 ± 0.1", it is an individual tolerance, which in this case is the same. ISO has a new edition of ISO 2768 in publication (October 2026) that will replace the 1989 one; that is why it should always be cited with its year. In workshops, the window is checked without measuring, with a <strong>go/no-go gauge</strong>: for a shaft, one gap with the maximum size, which the good part has to go through, and another with the minimum size, which it must not go through. It is an interval made of steel: each gap is an endpoint.</p>
+<p><strong>The two bars.</strong> The symbol |x| was written by Karl Weierstrass in an 1841 paper on power series, for complex numbers, which was not printed until 1894, in his <em>Mathematische Werke</em> (I, p. 67); Cajori tells the story in <em>A History of Mathematical Notations</em>, vol. II, § 492, p. 123.</p>
+<p><strong>The absolute value as a function.</strong> The rule at 7:54 defines a piecewise function, f(x) = x if x ≥ 0 and f(x) = −x if x &lt; 0, whose graph is a V with its vertex at the origin. It will be worked on with functions (core knowledge D.4). A property students can check: |x| = √(x²).</p>
+<p><strong>Inequalities with absolute value.</strong> The class's two rules are enough for the simple ones: |x − a| &lt; r ⇔ a − r &lt; x &lt; a + r, and |x − a| &gt; r ⇔ x &lt; a − r or x &gt; a + r (with r &gt; 0). Several autonomous communities require them in Mathematics I ("Simple polynomial, rational and absolute value inequalities", Madrid and Andalusia; our translation). The channel takes them up again in topic 3, with inequalities.</p>
+<p><strong>Distance in the plane.</strong> On the line, the distance between a and x is |x − a| = √((x − a)²). In the plane, the distance between two points is √((x₁ − x₂)² + (y₁ − y₂)²), which is Pythagoras: the same idea with one more dimension. And the taxi distance, which the class 3 sheet proposed as an activity, is |x₁ − x₂| + |y₁ − y₂|: two absolute values added together.</p>
+<h2>A classroom activity</h2>
+<p><strong>The edges of rules</strong> (about 30 minutes, in groups; it works on competence 6, criterion 8.2 and, along the way, reading legal texts). The class used the age of majority; the world is full of edges.</p>
+<ol>
+<li><strong>Search</strong> (10 minutes). Each group looks for three real rules with a band of numbers: age-based fares for a museum or for public transport in their town, tax bands, the age categories of a sports federation, the size of a garment. They note the source (where it says so, with its link or its document).</li>
+<li><strong>Translate</strong> (10 minutes). Each rule, with inequalities and with intervals. And the class's question: who owns each edge? If the rule does not say ("from 4 to 12 years": on the day you turn 12, do you pay or not?), it is noted as ambiguous.</li>
+<li><strong>Discuss</strong> (10 minutes). Are there rules with edges that overlap (two fares at once) or with gaps (an age with no fare)? How would you word them so that each case falls on just one side? It is what the class does with the three panels (6:19), with a real rule.</li>
+</ol>
+<p><strong>Another option, the class's window</strong> (about 20 minutes). Each student measures with their ruler the width of the same A4 sheet, in millimetres with one decimal place if they can. The measurements are collected on the board. Questions: what is the interval of all the measurements, from the smallest to the largest? Write it with its centre and its radius, |x − c| ≤ r. Is 210 mm, the nominal width of A4, inside? Why don't they all come out the same? And the open question, with the class's own data: how wide is the sheet really?</p>
+<figure><img src="img/p24.jpg" alt="The other way round: from [3, 7] to |x − 5| ≤ 2, with the centre and the radius travelling to their gaps." loading="lazy"><figcaption>The other way round: from [3, 7] to |x − 5| ≤ 2, with the centre and the radius travelling to their gaps.</figcaption></figure>
+<h2>Open resources</h2>
+<p>To keep working on what the class covers, all free. Links checked on 17/10/2026.</p>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>What it covers</th>
+<th>How to use it in class</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.geogebra.org/calculator">GeoGebra, Graphing Calculator</a></td>
+<td>Graphs and inequalities with sliders, in the browser and in many languages. Free for non-commercial use (GeoGebra non-commercial licence)</td>
+<td>Typing |x − a| ≤ r with two sliders, a and r, and watching the window move, as at 10:29; and the V of |x|</td>
+</tr>
+<tr>
+<td><a href="https://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/MatematicasILL.htm">Marea Verde, <em>Matemáticas I</em>, chapter 1</a></td>
+<td>The chapter "Números reales y complejos" (Real and complex numbers, revised in 2024), with absolute value, distance, intervals and neighbourhoods, in Spanish. Free</td>
+<td>Practice exercises on intervals and neighbourhoods</td>
+</tr>
+<tr>
+<td><a href="https://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_reales-JS-LOMCE/index.htm">EDAD, "Los números reales", 4.º ESO B</a> (Red Descartes)</td>
+<td>The interactive ESO unit on the real numbers, with intervals, in Spanish. CC BY-NC-SA 4.0</td>
+<td>Revising ESO before the class, for anyone who arrives without intervals</td>
+</tr>
+<tr>
+<td><a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a12">Spanish Constitution, art. 12</a> and <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763#a240">Civil Code, art. 240</a> (BOE)</td>
+<td>The texts on the age of majority, consolidated, in Spanish</td>
+<td>The activity on edges: reading the actual rule</td>
+</tr>
+<tr>
+<td><a href="https://www.bipm.org/en/committees/jc/jcgm/publications">GUM and VIM</a> (BIPM, JCGM)</td>
+<td>The guide to uncertainty in measurement and the vocabulary of metrology, in English, as free PDFs</td>
+<td>For the open question: what a measurement is and why it carries its margin</td>
+</tr>
+</tbody>
+</table>
+<h2>What the class leaves out, and why</h2>
+<p>The class has one question, how to say with precision which numbers are close to a given one, and whatever does not answer it is left out.</p>
+<ul>
+<li><strong>Operations with intervals (intersection), bounded intervals and bounds.</strong> Some books cover them here. The class uses the union once, for |x| &gt; 3, because the mistake calls for it; the intersection will come with inequalities and systems, in topic 3.</li>
+<li><strong>The properties of the absolute value</strong> (|a · b| = |a| · |b|, the triangle inequality |a + b| ≤ |a| + |b|). The triangle inequality is the one from class 3, "two sides add up to more than the third", on the line; it is left for when vectors are worked on.</li>
+<li><strong>Harder inequalities with absolute value</strong> (|2x − 3| ≤ 5, |x − 1| ≥ |x + 2|): topic 3.</li>
+<li><strong>Absolute and relative error.</strong> They are very close to this class (absolute error is a distance), but they have their place in topic 2, class 2, "How wrong are we?". That is why exercise 3 from the previous class was answered as a distance, without calling it an error yet.</li>
+<li><strong>The absolute value function and its graph.</strong> With functions, core knowledge D.4.</li>
+</ul>
+<h2>Sources</h2>
+<ul>
+<li>Royal Decree 243/2022, annex II, Mathematics, consolidated text (BOE, in Spanish): <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521">https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521</a>. Lower secondary (ESO): Royal Decree 217/2022, consolidated text (BOE, in Spanish), Mathematics in year 4, options A and B: <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975">https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975</a>.</li>
+<li>Spanish Constitution, art. 12 (BOE-A-1978-31229): <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a12">https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a12</a>. Civil Code, art. 240, as worded by Law 8/2021, in force since 03/09/2021 (previously, art. 315): <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763#a240">https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763#a240</a>. The criminal-law computation, from moment to moment: Supreme Court judgment of 26 May 1999, cited in practical case 101 of <em>Delictum</em> (University of Navarra), not read in the original.</li>
+<li>ISO 2768-1:1989, <em>General tolerances — Part 1</em>, table 1 (p. 2) and clause 5; UNE-EN 22768-1:1994 (UNE catalogue entry); the new edition of ISO 2768, in the ISO catalogue entry (<a href="https://www.iso.org/standard/85741.html">https://www.iso.org/standard/85741.html</a>).</li>
+<li>ISO 80000-2:2019, <em>Quantities and units — Part 2: Mathematics</em>, clause 4 and item 2-7.10.</li>
+<li>K. Weierstrass, "Zur Theorie der Potenzreihen" (1841), in <em>Mathematische Werke</em>, I (Berlin, 1894), p. 67; F. Cajori, <em>A History of Mathematical Notations</em>, vol. II (1929), § 492, p. 123.</li>
+<li>The go/no-go gauge: English Wikipedia, "Go/no-go gauge".</li>
+<li>JCGM 100:2008 (GUM), 3.1.2: <a href="https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf">https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf</a>. JCGM 200:2012 (VIM), 2.9, note 2: <a href="https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf">https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf</a>. The definition of the metre: BIPM, <em>The International System of Units (SI)</em>, 9th ed. (2019).</li>
+<li>R. Dedekind, <em>Stetigkeit und irrationale Zahlen</em> (Braunschweig, 1872), § 3; English translation by W. W. Beman (1901): <a href="https://www.gutenberg.org/ebooks/21016">https://www.gutenberg.org/ebooks/21016</a>.</li>
+<li>Every calculation on this sheet has been checked by running it with sympy and Decimal on 17/10/2026: the solutions to class 3, the midpoint, the parts, the 17.9995, the centres and radii, the solutions to the exercises, √2 and √5 against [1.5, 2.5], and the centre of (3.14, 22/7). The examples in the class and on this sheet are our own: the part and its batch, made up; the age of majority, from the Constitution.</li>
+</ul>
+<h2>About this class</h2>
+<p>GinCol Lab is a free science channel for curious minds. Ximena is an illustrated character, not a real person, and her voice is synthetic: computer-generated with Microsoft Azure AI Speech and not imitating any known person. The board is animated with Manim. The script and this sheet are written by an AI (Claude, by Anthropic) and reviewed by a person before publishing. Every fact has been checked in two sources or in the original, every quotation in its source and every calculation by running it. The images on this sheet come from the board of the video itself. This English version was translated by the same AI. If you spot a mistake, tell us: learning also means correcting.</p>
+<p>This sheet is published under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> licence: you can copy it, adapt it and use it in your classroom, crediting GinCol Lab.</p>
+<h2>How to cite this sheet</h2>
+<p>GinCol Lab (2026). <em>Intervals and absolute value: distances on the number line</em>. GinCol Lab teacher sheet: Mathematics I · 1st year of Bachillerato · The real numbers · Class 4 of 6. <a href="https://gincollab.github.io/aula/en/matematicas-i/t01-c4/">https://gincollab.github.io/aula/en/matematicas-i/t01-c4/</a>. CC BY 4.0.</p>
+<p class="pie">GinCol Lab teacher sheet · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/GinColLab/aula">Source and errata</a></p>
+</main>
+</body>
+</html>
