@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logarithms: the power in reverse · GinCol Lab teacher sheet</title>
+<meta name="description" content="Teacher sheet for «Logarithms: the power in reverse» (Mathematics I · 1st year of Bachillerato · The real numbers · Class 5 of 6): objective, curriculum, typical mistakes, solutions and a classroom activity.">
+<link rel="icon" href="../../../assets/buho.png">
+<link rel="stylesheet" href="../../../assets/aula.css">
+</head>
+<body>
+<header class="cabeza"><div class="dentro">
+  <a href="../../../en/"><img src="../../../assets/buho.png" alt="GinCol Lab"></a>
+  <div><a class="marca" href="../../../en/">GinCol Lab · Aula</a><div class="lema">Teacher sheets</div></div>
+</div></header>
+<main>
+<div class="miga"><a href="../../../en/matematicas-i/">Mathematics I</a> · 1st year of Bachillerato · The real numbers · Class 5 of 6 · With Ximena</div>
+<h1>Logarithms: the power in reverse</h1>
+<div class="botones"><a class="boton" href="https://youtu.be/QalMQUfeaBw">Watch the class on YouTube (in Spanish, with English subtitles)</a><a class="boton claro" href="teacher-sheet.pdf">Download the sheet (PDF)</a><a class="boton claro" href="student-sheet.pdf">Student worksheet (PDF)</a><a class="boton claro" href="https://agora.gincol.com/c/profesorado">Discuss it with other teachers in the Ágora (in Spanish)</a><a class="boton claro" href="../../../matematicas-i/t01-c5/" hreflang="es">Versión en español</a></div>
+
+<h2>In a nutshell</h2>
+<p>The class asks what a logarithm is and what it is for, and it starts with the mathematics. It retrieves the open interval (1, 2) from class 4 and corrects its three exercises by solving them step by step: the absolute value is removed on both sides, and the number is added to all three parts. The hook is <strong>Napier</strong>'s problem (1614): multiplying huge numbers without multiplying, using only additions and subtractions. Before the rows, what a <strong>base</strong> is: the number that is multiplied by itself (2³ = 2 · 2 · 2; the exponent counts the times). 2, because it is simple, generates its row: its powers, all even except 1, and without 6, which has a factor of 3; and each base, its own. With <strong>the two rows of 2</strong> (at the top, the exponents; below, the powers), 8 × 32 comes out by adding 3 + 5, and counting twos shows why: the rule of powers, in its box. The idea is older than Napier: in 1544, <strong>Stifel</strong> set out the same rows, the same example and, for the first time, the word "exponent". Those numbers at the top are the <strong>logarithms</strong>: log₂ 8 = 3. The definition goes in its box, in words and in symbols, as the sentence repeated throughout the class: <em>finding the logarithm of a number in a base means finding what number you must raise the base to in order to get that number</em>. The base is positive and different from 1, with the reason why. The trick of the rows, with its name: the <strong>product rule</strong> (with its proof: if x = aᵐ, m = logₐ x) and the <strong>quotient rule</strong> (aᵐ / aⁿ = aᵐ⁻ⁿ), each in its box, and the warning: <strong>a sum has no rule</strong> (log₂ (4 + 4) = log₂ 8 = 3, but log₂ 4 + log₂ 4 = 4). <strong>In your head</strong>, always with the same question in view: log₂ 32 = 5, any base and 10 by default, logₐ 1 = 0 and logₐ a = 1 in their box, the numbers between 0 and 1, which also have a logarithm, one with a gap (log 0.01 = −2) and one on your own (log₂ 1/8 = −3). The <strong>typical mistake</strong>, "log 0 = 0", is taken apart with the line that zooms in towards zero. To multiply <strong>any number</strong> (3 × 7) you need the logarithms of all numbers: log₂ 3 lies between 1 and 2 (with 1 it falls short; with 2 it overshoots). Tables were calculated, all in base 10, said aloud and written so that students' minds do not stay in base 2 (with them, 3 × 7 is log 3 + log 7 = log 21), and the <strong>slide rule</strong> multiplies by adding lengths (2 × 4 = 8, predicted beforehand, with each length labelled where it is). And at the end, briefly, <strong>what they are for today</strong>: sound level in decibels, β = 10 · log (I / I₀) (the 10, because the decibel is a tenth of the bel). With the class's rules, the faintest sound is at 0 dB (log 1 = 0), and one ten times more intense adds log 10 = 1: every 10 dB more, the intensity is multiplied by ten. And other sciences that use logarithms are mentioned, nothing more: pH, the brightness of the stars and the pitch of musical notes. Today's rules, on a card, and the open question: a sound ten times more intense, do you hear it ten times louder?</p>
+<p><strong>Objective.</strong> By the end, students will know what a logarithm is (what number you must raise the base to in order to get the number), will be able to work it out in their heads in simple cases, use the product and quotient rules, and explain what it is for: multiplying by adding, as Napier wanted, and measuring things that range from the tiny to the enormous, such as sound.</p>
+<p><strong>How it was remade.</strong> The class was remade with the notes of Ginés, who runs the channel. First, each rule in its box and before it is used (ADR-144). Then, meaning and applications as the thread (ADR-145), but with the mathematics first: the physics application comes at the end, when the rules are already in place, and it is deduced with them (ADR-146). What came out of the video is in "In depth", in case it is useful in class: the rock concert, Briggs, Laplace and the proof that log₂ 3 is not a fraction. With the notes on draft 13, Stifel's page and what a base is, with what it contains, came back (ADR-149); the retrieval question has no countdown (ADR-150), and the decibels stay with their formula and what the rules say about it (ADR-151).</p>
+<p><strong>The words.</strong> The "base" of a power: the number that is multiplied by itself; the "exponent", how many times (the word is Stifel's, 1544). "Logarithm base a of b" (logₐ b) is the exponent c with aᶜ = b; it is read "the logarithm base a of b". "log", with no base, is, in this year and on the calculator, the base-10 logarithm (the common, or decimal, logarithm); at university, many books write log for the base-e logarithm, which here is called ln and arrives in topic 12. The "intensity" of a sound: the energy that arrives each second on each square metre (W/m²). "Sound intensity level", β, in decibels; the bel, the original unit, is the plain logarithm of the ratio.</p>
+<p><em>For readers outside Spain:</em> the Bachillerato is the last two years of secondary school (ages 16–18). Mathematics I is the mathematics of the first year in the science and technology track; ESO is the compulsory secondary stage before it (ages 12–16). The video is in Spanish, with English subtitles; the images on this sheet come from the video and keep their Spanish text. In Spain the decimal separator is a comma, so the video writes 0,01 for 0.01; this sheet uses the decimal point.</p>
+<h2>Curriculum</h2>
+<p>Spain's Royal Decree 243/2022, Mathematics I, a subject of the science and technology track in the first year of Bachillerato (consolidated text in the Official State Gazette, BOE; the Mathematics annex has not changed since 2022). Our translation of the official Spanish text. The Mathematics I decree requires logarithmic functions (D.4) without having first required the logarithm, and the ESO decree (Royal Decree 217/2022) does not contain the word <em>logaritmo</em>, "logarithm": that is why the class builds it from scratch. Times are those of the video.</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>What the decree says</th>
+<th>Where the class works on it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Core knowledge A.1</strong> (A. Number sense, 1. Sense of operations)</td>
+<td>"Strategies for operating with real numbers and vectors: mental or written calculation in simple cases and with technological tools in more complicated ones."</td>
+<td>Logarithms in your head (9:40–12:22); the slide rule as a tool (15:33); the sound level (17:59)</td>
+</tr>
+<tr>
+<td><strong>Core knowledge D.4</strong> (D. Algebraic sense, 4. Relations and functions)</td>
+<td>"Properties of the different classes of functions, including polynomial, exponential, irrational, simple rational, logarithmic, trigonometric and piecewise functions: understanding and comparison."</td>
+<td>It prepares the ground: without the logarithm there is no logarithmic function. The function, in topic 12</td>
+</tr>
+<tr>
+<td><strong>Core knowledge F.1</strong> (F. Socio-affective sense, 1. Beliefs, attitudes and emotions)</td>
+<td>"Handling error, individually and collectively, as something that mobilises previously acquired knowledge and creates learning opportunities in the mathematics classroom."</td>
+<td>The two typical mistakes: log 0 = 0 (12:46) and the logarithm of a sum (9:14)</td>
+</tr>
+<tr>
+<td><strong>Core knowledge F.3</strong> (F. Socio-affective sense, 3. Inclusion, respect and diversity)</td>
+<td>"Appreciating the contribution of mathematics, and the role of male and female mathematicians throughout history, to the advance of science and technology."</td>
+<td>Napier (2:02), Stifel (5:16) and the slide rule, the tool of engineers and scientists until the seventies (17:38)</td>
+</tr>
+<tr>
+<td><strong>Criterion 2.1</strong></td>
+<td>"To check the mathematical validity of the possible solutions to a problem, using reasoning and argument."</td>
+<td>The solutions to class 4, checked by solving (1:16); 8 × 32 = 256, checked (4:08); log 0 = 0, refuted (13:00); the sum, refuted with numbers (9:14)</td>
+</tr>
+<tr>
+<td><strong>Criterion 5.1</strong></td>
+<td>"To show an integrated view of mathematics, investigating and connecting different mathematical ideas."</td>
+<td>Powers and logarithms: each rule of logarithms comes from one of the rules of powers (4:34–8:24); the interval (1, 2) from class 4, in log₂ 3 (14:54)</td>
+</tr>
+<tr>
+<td><strong>Competence 6</strong></td>
+<td>The links between mathematics and other areas of knowledge</td>
+<td>Sound level in decibels (17:59–19:09): physics, at the end and brief, deduced with the class's rules</td>
+</tr>
+<tr>
+<td><strong>Criterion 6.2</strong></td>
+<td>"To analyse the contribution of mathematics to the progress of humanity, reflecting on its role in proposing solutions to complex situations and to the scientific and technological challenges that arise in society."</td>
+<td>Logarithms as a calculating tool for more than three centuries (17:38), and as a measuring tool today (17:59)</td>
+</tr>
+<tr>
+<td><strong>Criterion 7.1</strong></td>
+<td>"To represent mathematical ideas, structuring different kinds of mathematical reasoning and selecting the most suitable technologies."</td>
+<td>The base and its row (2:31), the two rows, the slide rule, which represents logarithms as lengths (15:33), and the decibel formula (18:11)</td>
+</tr>
+<tr>
+<td><strong>Criterion 8.2</strong></td>
+<td>"To recognise and use mathematical language in different contexts, communicating information with precision and rigour."</td>
+<td>The notation logₐ b, read aloud (6:04), and the definition, in words and in symbols (6:32)</td>
+</tr>
+<tr>
+<td><strong>Criterion 9.1</strong></td>
+<td>"To face situations of uncertainty, identifying and managing emotions and accepting and learning from error as part of the process of learning mathematics."</td>
+<td>The typical mistakes and the challenges with a pause</td>
+</tr>
+</tbody>
+</table>
+<p>Specific competences 2, 5, 6, 7, 8 and 9. The class also serves <strong>Mathematics Applied to the Social Sciences I</strong>, which does require the operation: "Powers, roots and logarithms: understanding and using their relations to simplify and solve problems" (A.3 of that subject). And it connects with <strong>Physics and Chemistry</strong>: sound intensity level is part of the physics of waves.</p>
+<p><strong>What students bring from lower secondary (ESO)</strong> (Royal Decree 217/2022). Powers and their rules (2³ · 2⁵ = 2⁸, 2⁸ / 2³ = 2⁵), which the class recalls and justifies by counting twos; exponential notation for large and small numbers, which brings in the negative exponents of powers of ten. From the topic's earlier classes: intervals and the absolute value (class 4).</p>
+<h2>How the class is built</h2>
+<p><strong>Video chapters</strong></p>
+<table>
+<thead>
+<tr>
+<th>Minute</th>
+<th>Chapter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=0">0:00</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=0">What we'll see</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=15">0:15</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=15">What you already know</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=36">0:36</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=36">Solutions to the previous class</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=111">1:51</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=111">Napier's trick</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=364">6:04</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=364">What is a logarithm?</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=450">7:30</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=450">The rules: multiplying by adding</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=580">9:40</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=580">Logarithms in your head</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=766">12:46</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=766">The mistake: the logarithm of zero</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=863">14:23</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=863">Any number</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=933">15:33</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=933">The slide rule</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=1079">17:59</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=1079">What they're for today: sound</a></td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=1175">19:35</a></td>
+<td><a href="https://youtu.be/QalMQUfeaBw?t=1175">Practice and keep thinking</a></td>
+</tr>
+</tbody>
+</table>
+<p>Twenty-one minutes (21:13), in twelve chapters, with one thread: the logarithm counts how many times you multiply, and that is why it turns multiplying into adding. First the mathematics, and the physics at the end. Each rule goes in its yellow box, with its words and its symbols, and is said slowly before it is used; in the detailed explanations, the voice is 10% slower. The question of the definition is in view in all the mental-calculation examples. It has two stops to think (what the descent towards zero says, 13:46; every 10 dB, × 10, deduced, 19:09). Ximena appears on camera four times, about twenty seconds in all: to say hello (0:00), with the hook (1:51), halfway through (14:11) and to say goodbye (21:07).</p>
+<table>
+<thead>
+<tr>
+<th>Chapter</th>
+<th>What happens</th>
+<th>Why this way</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What we'll see (0:00)</td>
+<td>Ximena says hello. The map of the topic's six classes, with the fifth highlighted, and the question: "What is a logarithm, and what is it for?".</td>
+<td>Topic 1 keeps its numbered map.</td>
+</tr>
+<tr>
+<td>What you already know (0:15)</td>
+<td>How do you write the numbers greater than 1 and less than 2? A short silence, with no countdown. The open interval (1, 2), with the question in view (0:28).</td>
+<td>Retrieval before hearing the answer; no countdown, because it is revision (ADR-150).</td>
+</tr>
+<tr>
+<td>Solutions to the previous class (0:36)</td>
+<td>|x − 2| ≤ 0.5 → −0.5 ≤ x − 2 ≤ 0.5 → 1.5 ≤ x ≤ 2.5, with √2 outside and √5 inside; [−1, 3] is |x − 1| ≤ 2, checked by solving (1:16); |x − 1| &gt; 2 → x − 1 &gt; 2 or x − 1 &lt; −2 → (−∞, −1) ∪ (3, +∞) (1:20).</td>
+<td>Each one with its question in view and solved line by line, as the student would do it (ADR-147); brief: the board writes each step and the voice names it, and after two minutes today's content begins (ADR-148).</td>
+</tr>
+<tr>
+<td>Napier's trick (1:51)</td>
+<td>The hook: how do you multiply without multiplying? Napier's book and its promise (2:02). What a base is: 2³ = 2 · 2 · 2 (2:31). 2, because it is simple, generates its row: its powers, even except 1 and without 6; each base, its own (3:22). The challenge, 8 × 32. Pause (3:53). The arcs of 3 and 5 meet at 8, and below, 256 (4:08). Counting twos, the rule of powers in its box (4:34). The same idea in Stifel, 1544, with the word "exponent" (5:16).</td>
+<td>The problem before the theory (article 15), and a mathematical one: the class is a maths class (ADR-146). Each word, with what it contains, before it is used, and the history that gives it a foundation (ADR-149).</td>
+</tr>
+<tr>
+<td>What is a logarithm? (6:04)</td>
+<td>The numbers at the top are the logarithms: log₂ 8 = 3, with the notation read aloud. The definition, in its box, as the sentence that is repeated, and in symbols (6:32). The base, positive and different from 1, with the reason why (7:05).</td>
+<td>From the concrete to the rule, and the rule before the examples (ADR-144). The sentence, so that it sticks (ADR-145).</td>
+</tr>
+<tr>
+<td>The rules: multiplying by adding (7:30)</td>
+<td>The trick, with its name: the product rule, with its proof. The quotient rule, with aᵐ / aⁿ = aᵐ⁻ⁿ, on the same rows (8:24). A sum has no rule (9:14).</td>
+<td>Each rule of logarithms comes from one of the rules of powers, and it is stated before it is used. The second typical mistake, in view.</td>
+</tr>
+<tr>
+<td>Logarithms in your head (9:40)</td>
+<td>With the question in view: log₂ 32 = 5. Any base; the most used, 10, with the log key; log 100 = 2; log 1 = 0 (10:10); logₐ 1 = 0 and logₐ a = 1, in their box (10:40). Numbers between 0 and 1 also have a logarithm: to the right, × 10 and + 1; to the left, the opposite (11:09). One with a gap: 10^○ = 0.01 (11:37–11:49). One without help: log₂ 1/8. Pause (12:09).</td>
+<td>A worked example, another with a gap and another on their own (article 14: examples that are gradually withdrawn), each with the same question.</td>
+</tr>
+<tr>
+<td>The mistake: the logarithm of zero (12:46)</td>
+<td>If log 1 = 0, is log 0 = 0 too? Pause. 10⁰ = 1; to the left, the number approaches 0 without reaching it (13:00), with the line zooming in at each step and its marks (0.5, 0.05…), which are renewed as it zooms. To think about (13:46). Ximena halfway through (14:11).</td>
+<td>The mistake is made plausible by tying it to log 1 = 0 (Muller et al., 2008).</td>
+</tr>
+<tr>
+<td>Any number (14:23)</td>
+<td>The rows only multiply the numbers they contain: for 3 × 7 you need the logarithms of all numbers. log₂ 3, with the usual question: with 1 it falls short, with 2 it overshoots; it is in (1, 2) (14:54).</td>
+<td>It answers why you need to go beyond the rows: what Napier promised was to multiply any number.</td>
+</tr>
+<tr>
+<td>The slide rule (15:33)</td>
+<td>The tables, calculated by hand: 3 × 7 with log 3 + log 7 = log 21. Logarithms as lengths: log 2 ≈ 0.3, log 4 = log 2 + log 2, log 8 ≈ 3 · 0.3. "Careful: here, base 10", in view until the end of the slide rule section. Two rules; what is left under the 4? Pause (16:42). 8, with each length labelled where it is: the green one starts where the yellow one ends, and together they reach 8 (16:57). A real slide rule, and in its photo the middle piece slides until its 1 sits over the 2 (17:38).</td>
+<td>It answers a student's prediction (article 17.3): multiplying is adding lengths.</td>
+</tr>
+<tr>
+<td>What they're for today: sound (17:59)</td>
+<td>β = 10 · log (I / I₀), with each letter said aloud and the reason for the 10. With today's rules: the faintest, at 0 dB, because log 1 = 0 (18:36); ten times more intense adds log 10 = 1, by the product rule: every 10 dB, × 10, and with 20, × 100 (19:09). Other sciences, only mentioned: pH, the brightness of the stars and the pitch of notes (19:18).</td>
+<td>The physics application, after the rules and deduced with them (ADR-146), and brief: the foundation and one example (ADR-151).</td>
+</tr>
+<tr>
+<td>Practice and keep thinking (19:35)</td>
+<td>Today's rules, on a card. Three exercises (20:08). The open question, with its pause (20:37). Class 6 (20:58) and the goodbye (21:07).</td>
+<td>The solutions open the next class.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bridges with other subjects.</strong> Physics and Chemistry: sound intensity level (decibels) and, with the same idea, pH. History: calculation before machines.</p>
+<figure><img src="img/p8.jpg" alt="The two rows: the arcs of 3 and 5 meet at 8." loading="lazy"><figcaption>The two rows: the arcs of 3 and 5 meet at 8.</figcaption></figure>
+<figure><img src="img/p11.jpg" alt="The definition, in its box: the sentence that is repeated, and its symbols." loading="lazy"><figcaption>The definition, in its box: the sentence that is repeated, and its symbols.</figcaption></figure>
+<figure><img src="img/p14.jpg" alt="The product rule and the quotient rule, each in its box." loading="lazy"><figcaption>The product rule and the quotient rule, each in its box.</figcaption></figure>
+<figure><img src="img/p7b.jpg" alt="What a base is: 2 generates its row, its powers." loading="lazy"><figcaption>What a base is: 2 generates its row, its powers.</figcaption></figure>
+<figure><img src="img/p34.jpg" alt="Every 10 dB, × 10, deduced with the product rule." loading="lazy"><figcaption>Every 10 dB, × 10, deduced with the product rule.</figcaption></figure>
+<h2>A plan for a 50-minute lesson</h2>
+<p>Designed for watching the video in class, in sections, with the student worksheet.</p>
+<table>
+<thead>
+<tr>
+<th>Minutes</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–5</td>
+<td>No video, in pairs: "Before watching the video", on the worksheet.</td>
+</tr>
+<tr>
+<td>5–12</td>
+<td>Video up to 6:04 (the solutions, Napier, the base, the rows and Stifel). At the challenge of the rows (3:53), one minute in pairs.</td>
+</tr>
+<tr>
+<td>12–20</td>
+<td>Video up to 9:40. Stop after the definition box (6:32) to copy the sentence onto the worksheet, and after the boxes with the rules (8:24).</td>
+</tr>
+<tr>
+<td>20–27</td>
+<td>Video up to 14:23: in your head, with the gaps (11:37 and 12:09), and the mistake.</td>
+</tr>
+<tr>
+<td>27–33</td>
+<td>Video to the end.</td>
+</tr>
+<tr>
+<td>33–45</td>
+<td>The paper slide rule activity or the decibels activity (below), or the exercises on the worksheet.</td>
+</tr>
+<tr>
+<td>45–50</td>
+<td>Whole-class discussion of the open question.</td>
+</tr>
+</tbody>
+</table>
+<h2>Typical mistakes and how they are handled</h2>
+<ol>
+<li><strong>"The logarithm of 0 is 0."</strong> It is the class's mistake (12:46). It is taken apart with the definition: you would need 10^c = 0, and 10⁰ = 1. To the left, each step divides by ten, and a positive number divided by ten is still positive: it approaches 0 without reaching it.</li>
+<li><strong>"log (x + y) = log x + log y."</strong> The class's other mistake (9:14), with the rows of 2: log₂ (4 + 4) = log₂ 8 = 3, but log₂ 4 + log₂ 4 = 2 + 2 = 4. With the calculator, in base 10: log (10 + 10) = log 20 ≈ 1.30, not 2. The rule is for products, not for sums. A question that helps: "which operation turns into a sum?".</li>
+<li><strong>"From 60 to 120 dB, double."</strong> It is the mistake of reading a logarithmic scale as if it added. Every 10 dB multiplies the intensity by ten (19:09): from 60 to 120, by 10⁶.</li>
+<li><strong>Miscounting the times.</strong> log₂ 32 = 4, from starting to count at 2 instead of at 1. That is why the class says "start at 1" (9:40).</li>
+<li><strong>Reading the notation backwards:</strong> "log₂ 8" as "the logarithm of 2 in base 8". The base goes small and low, and it is the one that is raised (6:04).</li>
+<li><strong>"The logarithm of a negative number is negative."</strong> It does not exist: a power with a positive base is always positive (13:46). Negative numbers do come out as logarithms, of the numbers between 0 and 1 (log 0.01 = −2).</li>
+</ol>
+<h2>Questions and solutions</h2>
+<p><strong>Stop and think (in the video)</strong></p>
+<ul>
+<li><em>How do you write the numbers greater than 1 and less than 2?</em> (0:15, with no countdown) With the open interval (1, 2): neither 1 nor 2 is in it.</li>
+<li><em>Multiply 8 by 32 without multiplying, using the two rows.</em> (3:53) Above 8 there is a 3 and above 32 a 5; 3 + 5 = 8, and below 8 is 256.</li>
+<li><em>What number must you raise 10 to in order to get 0.01?</em> (11:37) To −2: 0.01 = 1/100 = 1 ÷ 10 ÷ 10, two steps to the left of 1.</li>
+<li><em>What is log₂ (1/8)?</em> (12:09) −3: 1/8 = 1/2³ = 2⁻³.</li>
+<li><em>Some people say that log 0 = 0. What is wrong?</em> (12:46) See mistake 1.</li>
+<li><em>Which number will be left below the 4 on top?</em> (16:42) 8: the top rule, slid by log 2, adds log 2 + log 4 = log 8.</li>
+</ul>
+<p><strong>The two stops to think</strong></p>
+<ul>
+<li><em>What the descent towards zero says</em> (13:46). With bases greater than 1, like 2 or 10, the closer a number is to 0, the more negative its logarithm, without end; and there is no logarithm of a negative number.</li>
+<li><em>Every 10 dB, × 10</em> (19:09). Ten times more intense means multiplying I / I₀ by 10, and by the product rule its logarithm adds log 10 = 1; with the 10 in front, 10 dB more. That is why a scale that adds (decibels) measures something that multiplies (intensity). To compare any two sounds, the quotient rule gives β₂ − β₁ = 10 · log (I₂ / I₁) (for the classroom; the video does not go that far). The same idea in pH: each unit, ten times more or less acidity.</li>
+</ul>
+<p><strong>Practice (the solutions open class 6)</strong></p>
+<ol>
+<li><em>log₃ 81.</em> 4: 3 · 3 · 3 · 3 = 81, counting from 1. <strong>What will come up:</strong> 3 (from starting to count at 3); 27 (81 ÷ 3).</li>
+<li><em>One sound at 80 dB and another at 50 dB: how many times more intense is the first?</em> A thousand times: 80 − 50 = 30 dB, three jumps of 10 dB, and each one multiplies by ten: 10 · 10 · 10 = 1000 (with the formula, 30 = 10 · log (I₁ / I₂), log (I₁ / I₂) = 3 and I₁ / I₂ = 10³). The video does the 20 dB one (× 100); this one asks for one more jump. <strong>What will come up:</strong> 30 (subtracting the decibels and stopping there); 3 (forgetting to undo the logarithm); 300 (adding ten three times instead of multiplying).</li>
+<li><em>Between which two whole numbers is log₂ 10? Write it as an interval.</em> Between 3 and 4, because 2³ = 8 &lt; 10 &lt; 16 = 2⁴: the open interval (3, 4). With the calculator (class 6), 3.3219… <strong>Marking criteria:</strong> the interval correctly written (class 4) and the reason, with the powers of 2: with 3 it falls short, with 4 it overshoots.</li>
+</ol>
+<p><strong>From the student worksheet</strong></p>
+<ul>
+<li><em>Before watching the video.</em> Eight times to reach 256. 2³ · 2⁵ = 2⁸ (eight twos) and 2⁸ ÷ 2³ = 2⁵ (three twos are removed). |x − 3| ≤ 1 → −1 ≤ x − 3 ≤ 1 → 2 ≤ x ≤ 4.</li>
+<li><em>The logarithm, with gaps.</em> log₃ 9 = 2 (1 → 3 → 9, twice); log₃ (1/9) = −2; log₅ 1 = 0, without calculating.</li>
+<li><em>One more, with the rules.</em> log 4 ≈ 0.60; log 8 ≈ 0.90; log 5 = log 10 − log 2 ≈ 0.70 (quotient rule); log 20 = log 2 + log 10 ≈ 1.30. To four decimal places: 0.6021, 0.9031, 0.6990 and 1.3010.</li>
+<li><em>One more, with sound.</em> 95 − 85 = 10 dB: ten times. 105 − 75 = 30 dB: a thousand times.</li>
+<li><em>The challenge.</em> log 1024 is the sum of ten log 2 (by the product rule), and 1024 ≈ 1000, so 10 · log 2 ≈ 3 and log 2 ≈ 0.3 (in fact, 0.30103).</li>
+</ul>
+<p><strong>Keep thinking.</strong> <em>A sound ten times more intense: do you hear it ten times louder?</em> The class leaves it open. For the debate: no. With 10 dB more, the loudness we perceive roughly doubles (Stevens's sone scale); it is not multiplied by ten. That "the ear works with logarithms" (the Weber–Fechner law) is a disputed approximation: if it comes up, it should be presented as such. A question for anyone who wants more: why do you think the ear does not perceive intensity as it is? If someone measures the board: the wave ten times more intense is drawn about three times taller, not ten, because intensity goes with the square of the amplitude (√10 ≈ 3.16).</p>
+<h2>In depth</h2>
+<p><strong>What came out of the video, in case it is useful in class.</strong> From the faintest sound you can hear (10⁻¹² W/m², 0 dB) to that of a very loud rock concert (1 W/m², 120 dB) there is a factor of a trillion, and the scale leaves it at 120. Henry Briggs published in 1624 the common logarithms of thirty thousand numbers, to fourteen decimal places, calculated by hand. Laplace wrote that logarithms, by reducing to a few days the work of several months, "double, so to speak, the life of astronomers" (<em>Exposition du système du monde</em>, 1798; our translation). And log₂ 3 is not a fraction: if it were p/q, by the product rule the logarithm of 3^q would be p, so 3^q = 2^p, and that is impossible because factorisation into primes is unique (and, more simply still, one is odd and the other even). With this the topic's thread closes: logarithms need the real numbers.</p>
+<p><strong>How Napier built his table.</strong> Napier did not tabulate the powers of a base, but the logarithms of sines, for trigonometry and astronomy. In today's notation, his logarithm of x is, very approximately, 10⁷ · ln(10⁷ / x). That is why MacTutor says that his logarithms "are not really to any base", and it is a mistake to say that Napierian logarithms (those to base e) are Napier's. His preface promises to do it all "per solas additiones, substractiones, bipartitiones, &amp; tripartitiones": with additions, subtractions and divisions by two and by three, which are the ones that square and cube roots need.</p>
+<p><strong>log 2 ≈ 0.3, in your head.</strong> 2¹⁰ = 1024 is almost 1000 = 10³. By the product rule, log 1024 is the sum of ten log 2, so 10 · log 2 ≈ 3 and log 2 ≈ 0.3. It is the challenge on the student worksheet, and a good way into the paper slide rule.</p>
+<p><strong>The slide rule, with its names.</strong> Edmund Gunter drew the logarithmic scale on a rule in 1620; William Oughtred put two rules together so that they slide, and described them in 1632. There was a priority dispute with Richard Delamain (MacTutor, biography of Oughtred). The voice only says "a few years later, in England".</p>
+<p><strong>The decibel, with more physics.</strong> β = 10 · log (I / I₀), with I₀ = 10⁻¹² W/m², the threshold of hearing at 1000 Hz. The bel, the original unit (log (I / I₀) on its own, named in honour of Alexander Graham Bell), turned out to be too large; the decibel is a tenth of it (ITU-R, Recommendation V.574). Sound level meters measure in dB(A), with a weighting that imitates the ear's sensitivity to each frequency; the class does not go into that. Nor into health: if it comes up in class, the WHO (<em>Make Listening Safe</em>, 2015) says that 100 dB is only safe for about 15 minutes a day.</p>
+<h2>Two classroom activities</h2>
+<p><strong>The paper slide rule</strong> (about 25 minutes, in pairs; it works on criterion 7.1 and mental calculation). Each pair cuts out two strips of card about 12 cm long and marks on both, with a ruler, the numbers at these distances from the start (10 cm per unit of logarithm):</p>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distance (cm)</td>
+<td>0</td>
+<td>3.0</td>
+<td>4.8</td>
+<td>6.0</td>
+<td>7.0</td>
+<td>7.8</td>
+<td>8.5</td>
+<td>9.0</td>
+<td>9.5</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Before marking: why does 2 go at 3.0 and 4 at 6.0? (log 4 = 2 · log 2.) And why does 5 go at 7.0? (5 = 10 / 2: quotient rule.)</li>
+<li>Multiply with the strips 2 × 3, 2 × 4 and 3 × 3. Does it match what you know?</li>
+<li>How would you divide with the two strips? (By subtracting lengths: 8 ÷ 2.)</li>
+</ol>
+<p>The distances, rounded to millimetres, come from log 2 = 0.301, log 3 = 0.477, log 4 = 0.602, log 5 = 0.699, log 6 = 0.778, log 7 = 0.845, log 8 = 0.903 and log 9 = 0.954 (checked with Python).</p>
+<p><strong>The classroom's decibels</strong> (about 15 minutes). With a sound level meter app on a mobile phone (any free one; the measurement is approximate), each pair measures the classroom in silence, a conversation and a round of applause. Then: how many times more intense is the applause than the silence? (Subtract the decibels, divide by ten and raise ten to that number.) How many decibels do you have to go up for the intensity to be multiplied by a thousand?</p>
+<h2>Open resources</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>What it is</th>
+<th>What for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://courses.lumenlearning.com/suny-physics/chapter/17-3-sound-intensity-and-sound-level/">OpenStax, <em>College Physics</em>, 17.3</a></td>
+<td>Sound intensity level, with its table of examples (in English, open licence)</td>
+<td>The class's physics, with more examples</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/mirificilogarit00napi">Napier, <em>Mirifici logarithmorum canonis descriptio</em> (1614)</a> (Internet Archive)</td>
+<td>Napier's book, with its preface in Latin and its tables of sines</td>
+<td>Seeing what a table of logarithms was really like</td>
+</tr>
+<tr>
+<td><a href="https://digital.slub-dresden.de/id274450283">Stifel, <em>Arithmetica integra</em> (1544)</a> (SLUB Dresden)</td>
+<td>The whole book, scanned; the two rows, on folio 237 (image 489)</td>
+<td>The original source of the trick of the rows</td>
+</tr>
+<tr>
+<td><a href="https://mathshistory.st-andrews.ac.uk/">MacTutor</a> (University of St Andrews)</td>
+<td>Biographies of Napier, Stifel, Briggs, Bürgi and Oughtred, in English</td>
+<td>The history, with its sources</td>
+</tr>
+<tr>
+<td><a href="https://americanhistory.si.edu/collections/object-groups/slide-rules">Slide rule collection</a> (Smithsonian)</td>
+<td>More than two hundred slide rules, with their records, in English</td>
+<td>Seeing the variety of slide rules and when they were used</td>
+</tr>
+</tbody>
+</table>
+<h2>What the class leaves out, and why</h2>
+<p>The class has one question, what a logarithm is and what it is for, and whatever does not answer it is left out.</p>
+<ul>
+<li><strong>The power rule and change of base</strong>: class 6, with the calculator, and with applications that solve for the exponent (how many folds of paper to reach the Moon). The product and quotient rules are given here.</li>
+<li><strong>The number e and the natural logarithm (ln)</strong>: topic 12, "The families of functions", with the exponential function.</li>
+<li><strong>The logarithmic function and its graph</strong>: topic 12 (core knowledge D.4).</li>
+<li><strong>What an exponent that is not a whole number means</strong> (2^1.58…): it starts in topic 2, with roots (a^(1/n) is the nth root of a); irrational exponents, with limits.</li>
+</ul>
+<h2>Sources</h2>
+<ul>
+<li>Royal Decree 243/2022, annex II, Mathematics, consolidated text (BOE, in Spanish): <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521">https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521</a>. Lower secondary (ESO): Royal Decree 217/2022 (BOE, in Spanish): <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975">https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975</a>.</li>
+<li>J. Napier, <em>Mirifici logarithmorum canonis descriptio</em> (Edinburgh, Andrew Hart, 1614), "Praefatio", read in Latin in the Internet Archive copy and checked against E. Wright's English translation (1616). The translation into Spanish is the channel's.</li>
+<li>OpenStax, <em>College Physics</em>, section 17.3, "Sound Intensity and Sound Level": intensity, power per unit area; β = 10 · log (I / I₀), I₀ = 10⁻¹² W/m²; 60 dB, a normal conversation; 120 dB (1 W/m²), a very loud rock concert, the threshold of pain.</li>
+<li>ITU-R, Recommendation V.574-5 (2015): the bel, the common logarithm of a ratio of powers, and the decibel, a tenth of it. World Health Organization, <em>Make Listening Safe</em> (2015), only for "In depth".</li>
+<li>The slide rule: MacTutor, biography of Oughtred; Smithsonian, National Museum of American History, slide rule collection.</li>
+<li>Muller, D. A., Sharma, M. D. and Reimann, P. (2008). Raising cognitive load with linear multimedia to promote conceptual change. <em>Science Education</em>, 92(2), 278–296.</li>
+<li>Every calculation on this sheet has been checked by running it with Python (<code>verificacion-datos.md</code>, sections 8, 10, 11 and 12).</li>
+</ul>
+<h2>About this class</h2>
+<p>GinCol Lab is a free science channel for curious minds. Ximena is an illustrated character, not a real person, and her voice is synthetic: computer-generated with Microsoft Azure AI Speech and not imitating any known person. The board is animated with Manim. The script and this sheet are written by an AI (Claude, by Anthropic) and reviewed by a person before publishing. Every fact has been checked in two sources or in the original, every quotation in its source and every calculation by running it. The title page of Napier's book and Stifel's page are in the public domain, and the photo of the slide rule is by Slashme (CC0). The images on this sheet come from the board of the video itself. This English version was translated by the same AI. If you spot a mistake, tell us: learning also means correcting.</p>
+<p>This sheet is published under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> licence: you can copy it, adapt it and use it in your classroom, crediting GinCol Lab.</p>
+<h2>How to cite this sheet</h2>
+<p>GinCol Lab (2026). <em>Logarithms: the power in reverse</em>. GinCol Lab teacher sheet: Mathematics I · 1st year of Bachillerato · The real numbers · Class 5 of 6. <a href="https://gincollab.github.io/aula/en/matematicas-i/t01-c5/">https://gincollab.github.io/aula/en/matematicas-i/t01-c5/</a>. CC BY 4.0.</p>
+<p class="pie">GinCol Lab teacher sheet · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/GinColLab/aula">Source and errata</a></p>
+</main>
+</body>
+</html>
