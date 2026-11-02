@@ -1,0 +1,782 @@
+{
+ "evento": {
+  "codigo": "us1000gcii",
+  "nombre": "2018 Fiji Earthquake",
+  "hora": "2018-08-19T00:19:40.670000Z",
+  "lat": -18.1125,
+  "lon": -178.153,
+  "profundidad_km": 600.0,
+  "magnitud": 8.2,
+  "tipo_magnitud": "mww"
+ },
+ "estaciones": [
+  {
+   "red": "II",
+   "estacion": "MSVF",
+   "sitio": "Monasavu, Fiji",
+   "lat": -17.745,
+   "lon": 178.053,
+   "dist": 3.629
+  },
+  {
+   "red": "IU",
+   "estacion": "AFI",
+   "sitio": "Afiamalu, Samoa",
+   "lat": -13.909,
+   "lon": -171.783,
+   "dist": 7.426
+  },
+  {
+   "red": "AU",
+   "estacion": "NIUE",
+   "sitio": "Niue Island, Niue",
+   "lat": -19.076,
+   "lon": -169.927,
+   "dist": 7.855
+  },
+  {
+   "red": "IU",
+   "estacion": "FUNA",
+   "sitio": "Funafuti, Tuvalu",
+   "lat": -8.526,
+   "lon": 179.197,
+   "dist": 9.927
+  },
+  {
+   "red": "IU",
+   "estacion": "RAO",
+   "sitio": "Raoul, Kermadec Islands",
+   "lat": -29.245,
+   "lon": -177.929,
+   "dist": 11.134
+  },
+  {
+   "red": "G",
+   "estacion": "DZM",
+   "sitio": "Dzumac - New Caledonia, France",
+   "lat": -22.072,
+   "lon": 166.444,
+   "dist": 14.989
+  },
+  {
+   "red": "G",
+   "estacion": "NOUC",
+   "sitio": "Port Laguerre - New Caledonia, France",
+   "lat": -22.099,
+   "lon": 166.307,
+   "dist": 15.119
+  },
+  {
+   "red": "IU",
+   "estacion": "RAR",
+   "sitio": "Rarotonga, Cook Islands",
+   "lat": -21.212,
+   "lon": -159.773,
+   "dist": 17.572
+  },
+  {
+   "red": "IU",
+   "estacion": "HNR",
+   "sitio": "Honiara, Solomon Islands",
+   "lat": -9.439,
+   "lon": 159.947,
+   "dist": 22.941
+  },
+  {
+   "red": "AU",
+   "estacion": "LHI",
+   "sitio": "Lord Howe Island",
+   "lat": -31.52,
+   "lon": 159.061,
+   "dist": 24.561
+  },
+  {
+   "red": "G",
+   "estacion": "PPTF",
+   "sitio": "Pamatai - Papeete - Tahiti island - French Polynesia, France",
+   "lat": -17.59,
+   "lon": -149.565,
+   "dist": 27.189
+  },
+  {
+   "red": "AU",
+   "estacion": "EIDS",
+   "sitio": "Eidsvold, QLD",
+   "lat": -25.369,
+   "lon": 151.082,
+   "dist": 29.41
+  },
+  {
+   "red": "AU",
+   "estacion": "ARMA",
+   "sitio": "Armidale, New South Wales",
+   "lat": -30.42,
+   "lon": 151.628,
+   "dist": 30.044
+  },
+  {
+   "red": "AU",
+   "estacion": "RABL",
+   "sitio": "Rabaul, Papua New Guinea",
+   "lat": -4.191,
+   "lon": 152.164,
+   "dist": 32.195
+  },
+  {
+   "red": "IU",
+   "estacion": "CTAO",
+   "sitio": "Charters Towers, Australia",
+   "lat": -20.088,
+   "lon": 146.255,
+   "dist": 33.629
+  },
+  {
+   "red": "IU",
+   "estacion": "PMG",
+   "sitio": "Port Moresby, New Guinea",
+   "lat": -9.405,
+   "lon": 147.16,
+   "dist": 34.733
+  },
+  {
+   "red": "AU",
+   "estacion": "COEN",
+   "sitio": "Coen, Queensland",
+   "lat": -13.957,
+   "lon": 143.175,
+   "dist": 37.333
+  },
+  {
+   "red": "AU",
+   "estacion": "INKA",
+   "sitio": "Innamincka, South Australia",
+   "lat": -27.741,
+   "lon": 140.746,
+   "dist": 38.868
+  },
+  {
+   "red": "AU",
+   "estacion": "QIS",
+   "sitio": "Mount Isa, Qld",
+   "lat": -20.558,
+   "lon": 139.605,
+   "dist": 39.826
+  },
+  {
+   "red": "AU",
+   "estacion": "YAPP",
+   "sitio": "Yappala Station, SA",
+   "lat": -31.866,
+   "lon": 138.312,
+   "dist": 41.469
+  },
+  {
+   "red": "AU",
+   "estacion": "OOD",
+   "sitio": "Oodnadatta, South Australia",
+   "lat": -27.794,
+   "lon": 135.688,
+   "dist": 43.336
+  },
+  {
+   "red": "II",
+   "estacion": "WRAB",
+   "sitio": "Tennant Creek, NT, Australia",
+   "lat": -19.933,
+   "lon": 134.359,
+   "dist": 44.783
+  },
+  {
+   "red": "IU",
+   "estacion": "MIDW",
+   "sitio": "Midway Island, USA",
+   "lat": 28.215,
+   "lon": -177.37,
+   "dist": 46.334
+  },
+  {
+   "red": "AU",
+   "estacion": "KDU",
+   "sitio": "Kakadu, NT",
+   "lat": -12.687,
+   "lon": 132.473,
+   "dist": 47.777
+  },
+  {
+   "red": "AU",
+   "estacion": "MTN",
+   "sitio": "Manton Dam, Northern Territory",
+   "lat": -12.844,
+   "lon": 131.133,
+   "dist": 49.015
+  },
+  {
+   "red": "AU",
+   "estacion": "KNRA",
+   "sitio": "Kununurra, WA",
+   "lat": -15.677,
+   "lon": 128.763,
+   "dist": 50.68
+  },
+  {
+   "red": "AU",
+   "estacion": "FITZ",
+   "sitio": "Fitzroy Crossing",
+   "lat": -18.098,
+   "lon": 125.64,
+   "dist": 53.198
+  },
+  {
+   "red": "AU",
+   "estacion": "KMBL",
+   "sitio": "Kambalda, WA",
+   "lat": -31.367,
+   "lon": 121.882,
+   "dist": 55.388
+  },
+  {
+   "red": "G",
+   "estacion": "DRV",
+   "sitio": "Dumont d'Urville - Terre Adelie, Antarctica",
+   "lat": -66.665,
+   "lon": 140.002,
+   "dist": 55.534
+  },
+  {
+   "red": "AU",
+   "estacion": "PSAA2",
+   "sitio": "Pilbara Seismic Array Element A2",
+   "lat": -21.563,
+   "lon": 119.847,
+   "dist": 58.046
+  },
+  {
+   "red": "AU",
+   "estacion": "MEEK",
+   "sitio": "Meekatharra, Western Australia",
+   "lat": -26.638,
+   "lon": 118.615,
+   "dist": 58.533
+  },
+  {
+   "red": "IU",
+   "estacion": "SBA",
+   "sitio": "Scott Base, Antarctica",
+   "lat": -77.849,
+   "lon": 166.757,
+   "dist": 60.193
+  },
+  {
+   "red": "II",
+   "estacion": "KAPI",
+   "sitio": "Kappang, Sulawesi, Indonesia",
+   "lat": -5.014,
+   "lon": 119.752,
+   "dist": 61.947
+  },
+  {
+   "red": "AU",
+   "estacion": "GIRL",
+   "sitio": "Giralia, WA",
+   "lat": -22.643,
+   "lon": 114.234,
+   "dist": 63.014
+  },
+  {
+   "red": "G",
+   "estacion": "CCD",
+   "sitio": "Concordia Base, Dome C, Antartica",
+   "lat": -75.106,
+   "lon": 123.305,
+   "dist": 64.664
+  },
+  {
+   "red": "IU",
+   "estacion": "MAJO",
+   "sitio": "Matsushiro, Japan",
+   "lat": 36.546,
+   "lon": 138.204,
+   "dist": 68.442
+  },
+  {
+   "red": "GE",
+   "estacion": "UGM",
+   "sitio": "GEOFON Station Wanagama, Indonesia",
+   "lat": -7.912,
+   "lon": 110.523,
+   "dist": 69.864
+  },
+  {
+   "red": "IU",
+   "estacion": "QSPA",
+   "sitio": "South Pole Remote Earth Science Observatory (Quiet Zone)",
+   "lat": -89.929,
+   "lon": 144.438,
+   "dist": 71.831
+  },
+  {
+   "red": "IU",
+   "estacion": "TATO",
+   "sitio": "Taipei, Taiwan",
+   "lat": 24.974,
+   "lon": 121.497,
+   "dist": 72.844
+  },
+  {
+   "red": "IU",
+   "estacion": "YSS",
+   "sitio": "Yuzhno Sakhalinsk, Russia",
+   "lat": 46.959,
+   "lon": 142.76,
+   "dist": 73.96
+  },
+  {
+   "red": "IU",
+   "estacion": "INCN",
+   "sitio": "Inchon, Republic of Korea",
+   "lat": 37.478,
+   "lon": 126.624,
+   "dist": 76.05
+  },
+  {
+   "red": "II",
+   "estacion": "XPFO",
+   "sitio": "Pinon Flat, California, USA",
+   "lat": 33.611,
+   "lon": -116.456,
+   "dist": 78.275
+  },
+  {
+   "red": "IC",
+   "estacion": "QIZ",
+   "sitio": "Qiongzhong, Hainan Province, China",
+   "lat": 19.029,
+   "lon": 109.844,
+   "dist": 79.849
+  },
+  {
+   "red": "IU",
+   "estacion": "TUC",
+   "sitio": "Tucson, Arizona",
+   "lat": 32.31,
+   "lon": -110.785,
+   "dist": 81.782
+  },
+  {
+   "red": "AU",
+   "estacion": "MAW",
+   "sitio": "Mawson, Antarctica",
+   "lat": -67.604,
+   "lon": 62.871,
+   "dist": 83.569
+  },
+  {
+   "red": "IC",
+   "estacion": "ENH",
+   "sitio": "Enshi, Hubei Province, China",
+   "lat": 30.276,
+   "lon": 109.495,
+   "dist": 84.715
+  },
+  {
+   "red": "IU",
+   "estacion": "ANMO",
+   "sitio": "Albuquerque, New Mexico, USA",
+   "lat": 34.946,
+   "lon": -106.457,
+   "dist": 86.181
+  },
+  {
+   "red": "G",
+   "estacion": "COYC",
+   "sitio": "Coyhaique, Chile",
+   "lat": -45.573,
+   "lon": -72.081,
+   "dist": 87.832
+  },
+  {
+   "red": "G",
+   "estacion": "AIS",
+   "sitio": "Nouvelle-Amsterdam - TAAF, France",
+   "lat": -37.796,
+   "lon": 77.569,
+   "dist": 89.696
+  },
+  {
+   "red": "GT",
+   "estacion": "PLCA",
+   "sitio": "Paso Flores, Argentina",
+   "lat": -40.733,
+   "lon": -70.551,
+   "dist": 90.856
+  },
+  {
+   "red": "IU",
+   "estacion": "RSSD",
+   "sitio": "Black Hills, South Dakota, USA",
+   "lat": 44.121,
+   "lon": -104.036,
+   "dist": 91.702
+  },
+  {
+   "red": "IU",
+   "estacion": "ULN",
+   "sitio": "Ulaanbaatar, Mongolia",
+   "lat": 47.865,
+   "lon": 107.053,
+   "dist": 93.629
+  },
+  {
+   "red": "IU",
+   "estacion": "LCO",
+   "sitio": "Las Campanas Astronomical Observatory, Chile",
+   "lat": -29.011,
+   "lon": -70.701,
+   "dist": 95.654
+  },
+  {
+   "red": "IU",
+   "estacion": "TIXI",
+   "sitio": "Tiksi, Russia",
+   "lat": 71.634,
+   "lon": 128.867,
+   "dist": 96.589
+  },
+  {
+   "red": "IU",
+   "estacion": "CCM",
+   "sitio": "Cathedral Cave, Missouri, USA",
+   "lat": 38.056,
+   "lon": -91.245,
+   "dist": 98.701
+  },
+  {
+   "red": "IC",
+   "estacion": "LSA",
+   "sitio": "Tibet, China",
+   "lat": 29.703,
+   "lon": 91.128,
+   "dist": 99.463
+  },
+  {
+   "red": "IU",
+   "estacion": "WVT",
+   "sitio": "Waverly, Tennessee, USA",
+   "lat": 36.13,
+   "lon": -87.83,
+   "dist": 100.814
+  },
+  {
+   "red": "GT",
+   "estacion": "LPAZ",
+   "sitio": "La Paz, Bolivia",
+   "lat": -16.288,
+   "lon": -68.131,
+   "dist": 103.013
+  },
+  {
+   "red": "IU",
+   "estacion": "DWPF",
+   "sitio": "Disney Wilderness Preserve, Florida, USA",
+   "lat": 28.11,
+   "lon": -81.433,
+   "dist": 104.157
+  },
+  {
+   "red": "II",
+   "estacion": "DGAR",
+   "sitio": "Diego Garcia, Chagos Islands, Indian Ocean",
+   "lat": -7.412,
+   "lon": 72.453,
+   "dist": 105.835
+  },
+  {
+   "red": "GT",
+   "estacion": "CPUP",
+   "sitio": "Villa Florida, Paraguay",
+   "lat": -26.331,
+   "lon": -57.331,
+   "dist": 107.372
+  },
+  {
+   "red": "IU",
+   "estacion": "SSPA",
+   "sitio": "Standing Stone, Pennsylvania",
+   "lat": 40.636,
+   "lon": -77.888,
+   "dist": 109.329
+  },
+  {
+   "red": "IU",
+   "estacion": "MAKZ",
+   "sitio": "Makanchi, Kazakhstan",
+   "lat": 46.808,
+   "lon": 81.977,
+   "dist": 109.765
+  },
+  {
+   "red": "II",
+   "estacion": "KURK",
+   "sitio": "Kurchatov, Kazakhstan",
+   "lat": 50.715,
+   "lon": 78.62,
+   "dist": 112.23
+  },
+  {
+   "red": "II",
+   "estacion": "NIL",
+   "sitio": "Nilore, Pakistan",
+   "lat": 33.651,
+   "lon": 73.269,
+   "dist": 115.109
+  },
+  {
+   "red": "G",
+   "estacion": "SPB",
+   "sitio": "Sao Paulo, Brazil",
+   "lat": -23.593,
+   "lon": -47.427,
+   "dist": 116.35
+  },
+  {
+   "red": "II",
+   "estacion": "BRVK",
+   "sitio": "Borovoye, Kazakhstan",
+   "lat": 53.058,
+   "lon": 70.283,
+   "dist": 117.285
+  },
+  {
+   "red": "IU",
+   "estacion": "KBL",
+   "sitio": "Kabul, Afghanistan",
+   "lat": 34.541,
+   "lon": 69.043,
+   "dist": 118.666
+  },
+  {
+   "red": "GE",
+   "estacion": "DAG",
+   "sitio": "GEOFON/AWI Station Danmarkshavn, Greenland",
+   "lat": 76.771,
+   "lon": -18.655,
+   "dist": 120.421
+  },
+  {
+   "red": "II",
+   "estacion": "ABPO",
+   "sitio": "Ambohimpanompo, Madagascar",
+   "lat": -19.018,
+   "lon": 47.229,
+   "dist": 121.994
+  },
+  {
+   "red": "II",
+   "estacion": "ARU",
+   "sitio": "Arti, Russia",
+   "lat": 56.429,
+   "lon": 58.562,
+   "dist": 123.193
+  },
+  {
+   "red": "G",
+   "estacion": "MPG",
+   "sitio": "Montagne des Peres - French Guiana, France",
+   "lat": 5.11,
+   "lon": -52.644,
+   "dist": 125.278
+  },
+  {
+   "red": "IU",
+   "estacion": "KEV",
+   "sitio": "Kevo, Finland",
+   "lat": 69.757,
+   "lon": 27.003,
+   "dist": 126.111
+  },
+  {
+   "red": "GT",
+   "estacion": "BOSA",
+   "sitio": "Boshof, South Africa",
+   "lat": -28.614,
+   "lon": 25.256,
+   "dist": 128.083
+  },
+  {
+   "red": "II",
+   "estacion": "UOSS",
+   "sitio": "Univ. of Sharjah, Sharjah, United Arab Emirates",
+   "lat": 24.945,
+   "lon": 56.204,
+   "dist": 129.294
+  },
+  {
+   "red": "GT",
+   "estacion": "LBTB",
+   "sitio": "Lobatse, Botswana",
+   "lat": -25.015,
+   "lon": 25.597,
+   "dist": 131.063
+  },
+  {
+   "red": "II",
+   "estacion": "OBN",
+   "sitio": "Obninsk, Russia",
+   "lat": 55.115,
+   "lon": 36.567,
+   "dist": 134.573
+  },
+  {
+   "red": "GE",
+   "estacion": "VSU",
+   "sitio": "GEOFON Station Vasula, Estonia",
+   "lat": 58.462,
+   "lon": 26.735,
+   "dist": 135.72
+  },
+  {
+   "red": "IU",
+   "estacion": "LSZ",
+   "sitio": "Lusaka, Zambia",
+   "lat": -15.278,
+   "lon": 28.188,
+   "dist": 137.709
+  },
+  {
+   "red": "II",
+   "estacion": "RAYN",
+   "sitio": "Ar Rayn, Saudi Arabia",
+   "lat": 23.523,
+   "lon": 45.503,
+   "dist": 138.989
+  },
+  {
+   "red": "IU",
+   "estacion": "KMBO",
+   "sitio": "Kilima Mbogo, Kenya",
+   "lat": -1.127,
+   "lon": 37.252,
+   "dist": 140.212
+  },
+  {
+   "red": "IU",
+   "estacion": "FURI",
+   "sitio": "Mt. Furi, Ethiopia",
+   "lat": 8.895,
+   "lon": 38.68,
+   "dist": 143.097
+  },
+  {
+   "red": "II",
+   "estacion": "SHEL",
+   "sitio": "Horse Pasture, St. Helena Island",
+   "lat": -15.959,
+   "lon": -5.745,
+   "dist": 145.117
+  },
+  {
+   "red": "II",
+   "estacion": "MBAR",
+   "sitio": "Mbarara, Uganda",
+   "lat": -0.602,
+   "lon": 30.738,
+   "dist": 145.98
+  },
+  {
+   "red": "IU",
+   "estacion": "GRFO",
+   "sitio": "Grafenberg, Germany",
+   "lat": 49.691,
+   "lon": 11.22,
+   "dist": 147.535
+  },
+  {
+   "red": "II",
+   "estacion": "BFO",
+   "sitio": "Black Forest Observatory, Schiltach, Germany",
+   "lat": 48.33,
+   "lon": 8.33,
+   "dist": 149.326
+  },
+  {
+   "red": "G",
+   "estacion": "CLF",
+   "sitio": "Chambon la Foret Observatory, France",
+   "lat": 48.026,
+   "lon": 2.26,
+   "dist": 150.085
+  },
+  {
+   "red": "G",
+   "estacion": "SSB",
+   "sitio": "Tunnel de Badole - Saint Sauveur en Rue, France",
+   "lat": 45.279,
+   "lon": 4.542,
+   "dist": 152.741
+  },
+  {
+   "red": "MN",
+   "estacion": "TIP",
+   "sitio": "Timpagrande, Italy",
+   "lat": 39.179,
+   "lon": 16.758,
+   "dist": 155.278
+  },
+  {
+   "red": "MN",
+   "estacion": "CEL",
+   "sitio": "Celeste, Italy",
+   "lat": 38.26,
+   "lon": 15.894,
+   "dist": 156.418
+  },
+  {
+   "red": "MN",
+   "estacion": "CLTB",
+   "sitio": "Caltabellotta, Italy",
+   "lat": 37.578,
+   "lon": 13.216,
+   "dist": 158.135
+  },
+  {
+   "red": "MN",
+   "estacion": "WDD",
+   "sitio": "Wied Dalam, Malta",
+   "lat": 35.837,
+   "lon": 14.524,
+   "dist": 159.027
+  },
+  {
+   "red": "G",
+   "estacion": "MBO",
+   "sitio": "M'Bour, Senegal",
+   "lat": 14.392,
+   "lon": -16.955,
+   "dist": 161.58
+  },
+  {
+   "red": "MN",
+   "estacion": "RTC",
+   "sitio": "Rabat, Morocco",
+   "lat": 33.988,
+   "lon": -6.857,
+   "dist": 162.323
+  },
+  {
+   "red": "GT",
+   "estacion": "DBIC",
+   "sitio": "Dimbokro, Ivory Coast",
+   "lat": 6.67,
+   "lon": -4.857,
+   "dist": 166.823
+  },
+  {
+   "red": "G",
+   "estacion": "TAM",
+   "sitio": "Tamanrasset, Algeria",
+   "lat": 22.791,
+   "lon": 5.528,
+   "dist": 174.188
+  }
+ ]
+}
